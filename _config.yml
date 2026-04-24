@@ -2,10 +2,10 @@ title: e4m
 description: Microbiome analysis
 remote_theme: mmistakes/minimal-mistakes
 url: "https://e4m-hash.github.io"
-baseurl: ""
+baseurl: "/e4m-hash"
 
 # Repository
-repository: "e4m-hash/e4m-hash.github.io"
+repository: "e4m-hash/e4m-hash"
 
 # GitHub Pages specific settings
 github: [metadata]

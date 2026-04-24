@@ -4,72 +4,45 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a Jekyll-based static site built for GitHub Pages, showcasing bioinformatics and microbiome analysis work. The site uses the Minimal Mistakes theme and is written in Korean and English.
-
-## Architecture & Structure
-
-### Jekyll Configuration
-- **Theme**: Uses `mmistakes/minimal-mistakes` remote theme
-- **Build System**: Jekyll with GitHub Pages compatibility
-- **Dependencies**: Managed through `Gemfile` using `github-pages` gem bundle
-- **Content Types**: 
-  - Static pages in `_pages/` directory (about, projects, stack)
-  - Blog posts in `_posts/` directory (currently empty)
-  - Project showcases in `projects/` directory
-  - Site-wide navigation defined in `_data/navigation.yml`
-
-### Content Organization
-- **Main Pages**: About (`/about/`), Projects (`/projects/`), Tech Stack (`/stack/`)
-- **Featured Project**: FunOMIC2 Nextflow pipeline conversion project
-- **Focus Areas**: Bioinformatics, microbiome analysis, metagenomics, reproducible research workflows
-
-### Site Configuration
-- **Base URL**: `https://e4m-hash.github.io`
-- **Language**: Mixed Korean/English content
-- **Features**: Search enabled, author profile, Jekyll plugins for pagination and feeds
-- **Markdown**: kramdown processor with rouge syntax highlighter
+Jekyll-based static site for GitHub Pages showcasing bioinformatics and microbiome analysis work. Uses the Minimal Mistakes remote theme. Content is bilingual (Korean primary, English technical terms).
 
 ## Development Commands
 
-### Local Development
 ```bash
-# Install dependencies
-bundle install
-
-# Serve site locally
-bundle exec jekyll serve
-
-# Build site
-bundle exec jekyll build
+bundle install                  # install dependencies
+bundle exec jekyll serve        # local dev server (http://localhost:4000)
+bundle exec jekyll build        # production build into _site/
 ```
 
-### Content Management
-```bash
-# Create new post
-# Add markdown file to _posts/ with format: YYYY-MM-DD-title.md
+## Architecture & Structure
 
-# Create new project
-# Add markdown file to projects/ directory
+### Content Layers
 
-# Update navigation
-# Edit _data/navigation.yml
-```
+There are two separate roles for project content:
+- `_pages/projects.md` — the `/projects/` index page listing all projects
+- `projects/` — individual project detail pages (e.g., `FunOMIC2.md`)
 
-## Key Technical Context
+Similarly, `_pages/about.md` and `_pages/stack.md` are the standalone About and Tech Stack pages. Navigation across these is defined in `_data/navigation.yml`.
 
-### Research Focus
-- **Primary Domain**: Microbiome metagenomics analysis
-- **Tools**: Python, R, C++, Nextflow, Docker
-- **Platforms**: Linux, AWS, GCP, Azure
-- **Specializations**: Statistical analysis (PERMANOVA, PCoA), machine learning (Random Forest, SHAP), workflow automation
+Blog posts go in `_posts/` with the filename format `YYYY-MM-DD-title.md`; the directory is currently empty.
 
-### Featured Technologies
-- **Pipeline Development**: Nextflow DSL2, containerization (Docker/Singularity)
-- **Data Analysis**: Alpha/Beta diversity, multivariate statistics, functional prediction
-- **Infrastructure**: HPC environments, multi-cloud deployment, reproducible research practices
+### Theme & Styling
 
-### Content Guidelines
-- Site content is bilingual (Korean primary, some English technical terms)
-- Technical documentation should emphasize reproducibility and automation
-- Project descriptions should highlight practical applications in bioinformatics research
-- Maintain academic/research professional tone while being accessible
+The site uses `mmistakes/minimal-mistakes` as a remote theme. Custom styles live in `assets/css/main.scss`, which extends the theme with a bioinformatics color scheme (Sea Green primary, Steel Blue secondary, Gold accent), custom components (`bio-cards`, `tech-grid`, `project-showcase`), and responsive/animation overrides. Edit this file for any visual changes — do not create separate CSS files.
+
+### Jekyll Configuration
+
+- `_config.yml` — main config; sets remote theme, plugins, author profile, per-scope layout defaults
+- `Gemfile` — pins `github-pages ~> 231` for Pages compatibility; active plugins: `jekyll-feed`, `jekyll-sitemap`, `jekyll-seo-tag`, `jekyll-include-cache`, `jekyll-remote-theme`
+- `CLAUDE.md` and `README.md` are excluded from the Jekyll build via `_config.yml`
+
+### Page Defaults (from `_config.yml`)
+
+- `_posts` scope: `layout: single`, author profile, read time, comments, share, related
+- `_pages` scope: `layout: single`, author profile, `classes: wide`
+
+## Content Guidelines
+
+- Korean is the primary language; use English for technical terms (tool names, commands, etc.)
+- Maintain an academic/research professional tone
+- Project pages should emphasize reproducibility, containerization, and practical bioinformatics applications
