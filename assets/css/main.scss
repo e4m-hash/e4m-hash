@@ -1,0 +1,217 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Custom styles for e4m's portfolio */
+
+/* Enhanced color scheme for bioinformatics theme */
+:root {
+  --bio-primary: #2e8b57;    /* Sea Green for biology theme */
+  --bio-secondary: #4682b4;  /* Steel Blue for tech theme */
+  --bio-accent: #ffd700;     /* Gold for highlights */
+  --bio-dark: #1a365d;      /* Dark blue for contrast */
+}
+
+/* Header and navigation enhancements */
+.masthead {
+  background: linear-gradient(135deg, var(--bio-primary) 0%, var(--bio-secondary) 100%);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.site-title {
+  font-weight: 700;
+  color: white !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.greedy-nav a {
+  color: rgba(255,255,255,0.9) !important;
+  transition: color 0.3s ease;
+}
+
+.greedy-nav a:hover {
+  color: var(--bio-accent) !important;
+}
+
+/* Author profile enhancements */
+.author__avatar img {
+  border: 3px solid var(--bio-primary);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.author__name {
+  color: var(--bio-dark);
+  font-weight: 600;
+}
+
+.author__bio {
+  font-style: italic;
+  color: #666;
+}
+
+/* Content area styling */
+.page__content {
+  h1, h2 {
+    color: var(--bio-dark);
+    border-bottom: 2px solid var(--bio-primary);
+    padding-bottom: 0.3em;
+  }
+  
+  h3 {
+    color: var(--bio-secondary);
+  }
+  
+  h4 {
+    color: var(--bio-primary);
+  }
+}
+
+/* Custom cards for sections */
+.bio-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-left: 4px solid var(--bio-primary);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bio-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Tech stack styling */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.tech-category {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid #dee2e6;
+}
+
+.tech-category h3 {
+  margin-top: 0;
+  color: var(--bio-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Project showcase */
+.project-showcase {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 1px solid #e9ecef;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tag {
+  background: var(--bio-primary);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Links and buttons */
+a {
+  color: var(--bio-secondary);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--bio-primary);
+}
+
+.btn--primary {
+  background-color: var(--bio-primary) !important;
+  border-color: var(--bio-primary) !important;
+}
+
+.btn--primary:hover {
+  background-color: var(--bio-secondary) !important;
+  border-color: var(--bio-secondary) !important;
+}
+
+/* Emoji and icon enhancements */
+.emoji-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-showcase {
+    padding: 1rem;
+  }
+  
+  .bio-card {
+    margin: 0.5rem 0;
+    padding: 1rem;
+  }
+}
+
+/* Animation for page load */
+.page__content {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Highlight code blocks with biology theme */
+.highlight {
+  border-left: 4px solid var(--bio-primary);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bio-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bio-secondary);
+}

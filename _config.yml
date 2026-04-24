@@ -1,0 +1,92 @@
+title: e4m
+description: Microbiome analysis
+remote_theme: mmistakes/minimal-mistakes
+url: "https://e4m-hash.github.io"
+baseurl: ""
+
+# Repository
+repository: "e4m-hash/e4m-hash.github.io"
+
+# GitHub Pages specific settings
+github: [metadata]
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Site Author
+author:
+  name: "e4m"
+  bio: "Bioinformatics 를 공부하고 있습니다."
+  location: "Korea"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/e4m-hash"
+
+# Site Settings
+minimal_mistakes_skin: "default"
+search: true
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+future: false
+safe: true
+
+# Plugins (GitHub Pages whitelist)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# Include pages in collections
+include: ["_pages"]
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - CLAUDE.md
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      classes: wide
