@@ -5,7 +5,6 @@ layout: single
 author_profile: true
 ---
 
-# Projects
 
 ## Featured Project
 
@@ -23,7 +22,6 @@ author_profile: true
 #### Technologies Used
 - **Nextflow**: 워크플로우 관리
 - **Docker**: 컨테이너화
-- **Conda**: 패키지 관리
 - **Bash/Python**: 스크립팅
 
 #### Impact
@@ -35,16 +33,8 @@ author_profile: true
 
 ---
 
-## Other Research Projects
+## KT Aivle Big Project
 
-### Microbiome Diversity Analysis
-- Alpha/Beta diversity 분석 자동화 도구 개발
-- PERMANOVA 기반 통계 분석 파이프라인
-
-### ML-based Taxonomic Classification
-- Random Forest 모델을 활용한 미생물 분류
-- SHAP 기반 feature importance 분석
-
----
+## KLAS (bibliographic information) Macro
 
 *더 많은 프로젝트가 준비 중입니다...*

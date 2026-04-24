@@ -5,8 +5,6 @@ permalink: /stack/
 author_profile: true
 ---
 
-# Tech Stack
-
 ## Programming Languages
 
 <div class="tech-grid">
@@ -16,9 +14,9 @@ author_profile: true
 <p><strong>Primary language for data analysis and bioinformatics</strong></p>
 <ul>
 <li><strong>Data Analysis</strong>: Pandas, NumPy, SciPy</li>
-<li><strong>Visualization</strong>: Matplotlib, Seaborn, Plotly</li>
-<li><strong>Bioinformatics</strong>: Biopython, QIIME2, scikit-bio</li>
-<li><strong>Machine Learning</strong>: scikit-learn, TensorFlow, PyTorch</li>
+<li><strong>Visualization</strong>: Matplotlib, Seaborn</li>
+<li><strong>Bioinformatics</strong>: Biopython, scikit-bio</li>
+<li><strong>AI</strong>: scikit-learn, PyTorch</li>
 </ul>
 </div>
 
@@ -56,13 +54,12 @@ author_profile: true
 <ul>
 <li><strong>Server Management</strong>: Ubuntu/CentOS administration</li>
 <li><strong>Shell Scripting</strong>: Bash automation and pipeline orchestration</li>
-<li><strong>HPC</strong>: SLURM job scheduling and resource management</li>
-<li><strong>Environment Management</strong>: Conda, virtual environments</li>
+<li><strong>Environment Management</strong>: Conda, Container</li>
 </ul>
 </div>
 
 <div class="tech-category">
-<h3> Docker & Containerization</h3>
+<h3> Docker/Podman & Containerization</h3>
 <p><strong>Reproducible analysis environments</strong></p>
 <ul>
 <li>Multi-stage builds for bioinformatics tools</li>
@@ -79,6 +76,14 @@ author_profile: true
 <li>Multi-cloud deployment (AWS, GCP, Azure)</li>
 <li>Scalable HPC and cloud execution</li>
 <li>Module-based workflow design</li>
+</ul>
+</div>
+
+<div class="tech-category">
+<h3> Qiime2</h3>
+<p><strong>next-generation microbiome bioinformatics platform that is extensible, free, open-source, and community-developed</strong></p>
+<ul>
+<li><strong></strong></li>
 </ul>
 </div>
 
@@ -135,14 +140,15 @@ author_profile: true
 <ul>
 <li><strong>Amplicon Sequencing</strong>: 16S/18S/ITS analysis</li>
 <li><strong>Metagenomics</strong>: Shotgun sequencing analysis</li>
-<li><strong>Functional Prediction</strong>: PICRUSt2, HUMAnN3</li>
+<li><strong>Preprocessing</strong>: Fastp, BBduk</li>
+<li><strong>Taxonomic Profiling</strong>: Kraken2/Bracken, MetaPhlan4</li>
+<li><strong>Functional Profiling</strong>: PICRUSt2, HUMAnN3</li>
 </ul>
 </div>
 
 <div class="tech-category">
 <h3> AI/ML Integration</h3>
 <ul>
-<li><strong>AutoML</strong>: Automated model selection</li>
 <li><strong>LLM Tools</strong>: Ollama, local model deployment</li>
 <li><strong>Feature Engineering</strong>: SHAP-based interpretability</li>
 </ul>
@@ -161,7 +167,6 @@ author_profile: true
 <ul>
 <li><strong>Selenium</strong>: Automated web data extraction</li>
 <li><strong>API Integration</strong>: RESTful service connectivity</li>
-<li><strong>Data Pipeline</strong>: ETL process automation</li>
 </ul>
 </div>
 
@@ -170,7 +175,7 @@ author_profile: true
 <ul>
 <li><strong>Git</strong>: Version control and collaboration</li>
 <li><strong>GitHub/GitLab</strong>: Repository management</li>
-<li><strong>Documentation</strong>: Markdown, Jupyter notebooks</li>
+<li><strong>Documentation</strong>: Markdown(Obsidian), Jupyter notebooks</li>
 </ul>
 </div>
 

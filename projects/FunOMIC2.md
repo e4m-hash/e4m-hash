@@ -6,7 +6,7 @@ author_profile: true
 
 # FunOMIC2 Nextflow Pipeline
 
-<div class="project-showcase">
+<div class="project-showcase" markdown="1">
 
 ## 프로젝트 개요
 **기존 메타게놈 분석 파이프라인의 현대적 재구현**

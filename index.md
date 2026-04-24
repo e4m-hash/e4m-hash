@@ -1,13 +1,12 @@
 ---
-title: Home
+title: Portfolio
 layout: home
 author_profile: true
 ---
 
-# Welcome to e4m's Portfolio
+Bioinformatics ( Microbiome ) 분석을 공부하고 있습니다.
 
-Bioinformatics와 Microbiome 분석을 공부하고 있습니다.
-
+# Portfolio
 ## About Me
 소속 연구실, 연구 관심사, 기술 기반을 소개합니다.
 
@@ -20,7 +19,7 @@ Bioinformatics와 Microbiome 분석을 공부하고 있습니다.
 
 ## Tech Stack
 - **Languages**: Python, C++, R
-- **Platforms**: Linux, Docker, Nextflow
+- **Platforms**: Linux, Docker, Nextflow, Qiime2
 - **Cloud**: AWS, GCP, Azure
 - **Focus**: Microbiome Analysis, Metagenomics
 
