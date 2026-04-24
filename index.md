@@ -6,7 +6,6 @@ author_profile: true
 
 Bioinformatics ( Microbiome ) 분석을 공부하고 있습니다.
 
-# Portfolio
 ## About Me
 소속 연구실, 연구 관심사, 기술 기반을 소개합니다.
 

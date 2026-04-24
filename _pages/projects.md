@@ -4,8 +4,6 @@ permalink: /projects/
 layout: single
 author_profile: true
 ---
-
-
 ## Featured Project
 
 ### FunOMIC2 Nextflow Pipeline
@@ -29,7 +27,7 @@ author_profile: true
 - 분석 재현성 보장
 - 다양한 HPC 환경에서 호환성 확보
 
-[📁 Repository 보기](https://github.com/e4m-hash/FunOMIC2-nextflow)
+[📁 Repository 보기](https://github.com/e4m-hash/nf-core-funomic)
 
 ---
 

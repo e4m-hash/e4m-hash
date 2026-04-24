@@ -61,7 +61,6 @@ author_profile: true
 </ul>
 </div>
 
-</div>
 
 <div class="bio-card" markdown="1">
 
