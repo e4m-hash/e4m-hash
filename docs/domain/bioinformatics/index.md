@@ -30,7 +30,7 @@ MetaScale의 입력 데이터와 제약을 설명하는 domain layer입니다. �
 
 ## Papers
 
-- [Microbiome ML best practices](<papers/Best practices for developing microbiome-based disease diagnostic classifiers through machine learning.md>)
-- [Genomic language models](<papers/Genomic language models (gLMs) decode bacterial genomes for improved gene prediction and translation initiation site identification/Summary.md>)
+- [Microbiome ML best practices](<../../papers/Best practices for developing microbiome-based disease diagnostic classifiers through machine learning.md>)
+- [Genomic language models](<../../papers/Genomic language models (gLMs) decode bacterial genomes for improved gene prediction and translation initiation site identification/Summary.md>)
 
-→ [논문 리뷰 전체](papers/index.md)
+→ [논문 리뷰 전체](../../papers/index.md)

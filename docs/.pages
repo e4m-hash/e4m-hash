@@ -3,5 +3,6 @@ nav:
   - projects
   - notes
   - domain
+  - papers
   - blog
   - about.md          # 첫 H1 "소개" 사용
