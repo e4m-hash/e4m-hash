@@ -1,12 +1,13 @@
 title: 노트
 nav:
-  - index.md          # navigation.indexes → "노트" 섹션 랜딩(Data Analysis Stack 개요)
-  - data-collection
+  - index.md
+  - ml-engineering
+  - ai
   - pipeline
+  - data-collection
+  - environment
   - bioinformatics
   - statistics
   - math
-  - ai
-  - environment
   - papers
   - ...

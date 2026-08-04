@@ -1,0 +1,82 @@
+filters:
+  or:
+    - 'type == "project"'
+    - 'type == "milestone"'
+
+formulas:
+  status_label: 'if(status == "completed", "✅ 완료", if(status == "in-progress", "🚧 진행", "📌 예정"))'
+  evidence_gap: 'if(type == "project" && (!evidence.contains("code") || !evidence.contains("benchmark")), "보완 필요", "")'
+
+properties:
+  file.name:
+    displayName: "항목"
+  formula.status_label:
+    displayName: "상태"
+  formula.evidence_gap:
+    displayName: "증거"
+  focus:
+    displayName: "역량"
+  evidence:
+    displayName: "확인 가능"
+  phase:
+    displayName: "단계"
+  week:
+    displayName: "주차"
+  priority:
+    displayName: "우선순위"
+  deliverable:
+    displayName: "완료 산출물"
+  related_project:
+    displayName: "프로젝트"
+  updated:
+    displayName: "갱신일"
+
+views:
+  - type: table
+    name: "Portfolio Evidence"
+    filters: 'type == "project"'
+    order:
+      - file.name
+      - formula.status_label
+      - focus
+      - evidence
+      - formula.evidence_gap
+      - updated
+
+  - type: table
+    name: "Active Milestones"
+    filters:
+      and:
+        - 'type == "milestone"'
+        - 'status != "completed"'
+    groupBy:
+      property: phase
+      direction: ASC
+    order:
+      - file.name
+      - formula.status_label
+      - week
+      - priority
+      - deliverable
+      - related_project
+
+  - type: table
+    name: "Evidence Gaps"
+    filters:
+      and:
+        - 'type == "project"'
+        - 'formula.evidence_gap == "보완 필요"'
+    order:
+      - file.name
+      - formula.status_label
+      - evidence
+      - focus
+
+  - type: table
+    name: "Completed"
+    filters: 'status == "completed"'
+    order:
+      - file.name
+      - type
+      - evidence
+      - updated

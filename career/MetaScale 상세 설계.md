@@ -1,3 +1,10 @@
+---
+type: design
+status: planned
+related_project: "[[MetaScale]]"
+updated: 2026-08-04
+---
+
 # MetaScale ML Platform
 ## Shotgun Metagenomics 기반 대규모·고차원 ML 엔지니어링 프로젝트 설계서
 

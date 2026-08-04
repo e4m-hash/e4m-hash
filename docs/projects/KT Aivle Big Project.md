@@ -1,62 +1,68 @@
+---
+type: project
+status: completed
+featured: true
+focus:
+  - data-collection
+  - modeling
+  - application
+evidence:
+  - code
+  - design
+updated: 2026-08-04
+---
 
-# KT Aivle
+# KT Aivle Big Project
 
-|항목|내용|
-|---|---|
-|기간|2025.02 ~ 2025.03|
-|역할|개발 · 배포|
-|기술|Python, Spring, React|
-|링크|[e4m-hash/React](https://github.com/e4m98/AivleBigReact) · [e4m-hash/Spring](https://github.com/e4m98/AivleBigSpring) · [e4m-hash/Ai](https://github.com/e4m98/Aivle_machine)|
+> [!success] 팀 프로젝트 완료
+> SH 공공임대주택 정보와 과거 데이터를 수집해 예측 모델과 웹 애플리케이션을 연결했습니다.
 
-## 설명
-KT Aivle Bootcamp 과정 중 SH(서울주택공사) 데이터를 바탕으로, 현재 진행 중인 청약 정보 제공 및 개인별 청약 당첨 가능성을 제시하는 Full Stack AI 프로젝트입니다.
+| 항목 | 내용 |
+| --- | --- |
+| 기간 | 2025.02 ~ 2025.03 |
+| 범위 | 데이터 수집 · ML 모델 비교 · 서비스 연동 |
+| 기술 | Python, scikit-learn, XGBoost, CatBoost, PyTorch, Spring, React |
 
-기존 부동산 플랫폼의 주 고객층이 기혼자(85%) 중심으로 형성되어 있어 청년층 유저 확보가 새로운 과제로 대두되고 있으며, 매년 급증하는 청년·신혼부부 대상 공공임대주택 수요(2024년 LH 청년 매입임대주택 서울 경쟁률 279:1, 2023년 청년 공공임대주택 418:1 사상 최고치)를 배경으로 기획되었습니다. 청약 관련 정보가 여러 기관에 분산되어 있어 통합적인 정보 제공이 필요한 상황이며, 이를 해소하기 위해 원스톱 서비스를 구현하였습니다.
+## 문제
 
-## 주요 기능
+공공임대주택 공고와 자격 정보가 여러 화면에 나뉘어 있고, 사용자가 현재 공고와
+자신의 조건을 함께 비교하기 어렵다는 문제에서 시작했습니다. 팀은 공고 정보를
+수집하고 과거 데이터로 예상 커트라인을 제시하는 웹 서비스를 만들었습니다.
 
-- 청약 점수 기반 추천: 사용자의 청약 점수를 입력받아 점수에 적합한 주택 목록 제공
-    
-- 커트라인 점수 예측: 과거 청약 데이터(위치, 면적, 방 개수, 경쟁률, 월세 등)를 학습한 ML 모델(CatBoost / XGBoost 등 모델별 비교)을 통해 현재 청약 중인 주택의 예상 커트라인 점수 제시
-    
-- 주택 선호도 점수 제공: 딥러닝(DL)을 활용하여 주택 평면도 이미지를 분석하고 선호도를 반영한 점수 추천 (Image-to-Score 모델)
-    
-- 주택 정보 제공: 위치, 면적, 주변 인프라 점수 등 현재 공고 중인 주택 정보를 웹에서 확인 가능; SH 최근 청약 공고 Selenium JSON 파싱
-    
-- 커뮤니티 및 마이페이지: 청약 정보 공고 게시판 및 유저 게시판을 통한 주거 관련 정보 공유, 관심 주택 관리 및 회원정보 수정
+## 데이터와 모델
 
+```mermaid
+flowchart LR
+  A[SH 공고 수집] --> B[정제·feature 생성]
+  B --> C[CatBoost / XGBoost 비교]
+  C --> D[예측 결과]
+  D --> E[Spring API]
+  E --> F[React UI]
+```
 
-## 기대 효과
+- Selenium과 JSON parsing으로 최근 공고 정보 수집
+- 위치, 면적, 방 개수, 경쟁률, 월세 등 tabular feature 구성
+- CatBoost, XGBoost, RandomForest 계열 후보 비교
+- 평면도 이미지를 입력으로 받는 별도 image-to-score 모델 실험
+- Spring backend와 React frontend에서 공고·예측 결과 제공
 
-사용자(청년층) 관점:
+## ML Engineering 관점에서 배운 점
 
-- 개인별 상황에 최적화된 맞춤형 청약 전략 수립 가능
-- 부동산 시세와 청약 정보를 통합적으로 확인할 수 있는 원스톱 서비스 경험
-- 데이터 기반의 당첨 확률 분석으로 합리적인 의사결정 지원    
-- 복잡한 청약 제도를 쉽게 이해하고 준비할 수 있는 편의성 제공
+- 모델 입력 schema와 웹 요청 schema를 맞추는 작업이 필요했습니다.
+- 수집 페이지가 바뀌면 downstream feature도 깨질 수 있어 수집 검증이 중요했습니다.
+- 모델 성능뿐 아니라 예측 결과를 사용자가 이해할 수 있는 형태로 전달해야 했습니다.
 
+## 근거
 
-비즈니스(호갱노노) 관점:
+- [ML 저장소](https://github.com/e4m98/Aivle_machine)
+- [Spring 저장소](https://github.com/e4m98/AivleBigSpring)
+- [React 저장소](https://github.com/e4m98/AivleBigReact)
+- [과제 정의서 1](attachments/AI_19조_조별과제정의서-1.png)
+- [과제 정의서 2](attachments/AI_19조_조별과제정의서-2.png)
+- [과제 정의서 3](attachments/AI_19조_조별과제정의서-3.png)
 
-- 차별화된 서비스 제공으로 청년층 사용자의 플랫폼 이용 증가
-- 청년 임차인의 미래 실구매자 전환 가능성 확보
-- 청년층 주거 선호도 및 행태 데이터 확보를 통한 마케팅 인사이트 도출
-- 기존 부동산 정보 서비스와의 시너지 효과 창출
+## 한계
 
-
-## 기술 스택
-
-| 분류       | 기술                                                                     |
-| -------- | ---------------------------------------------------------------------- |
-| Frontend | React                                                                  |
-| Backend  | Spring                                                                 |
-| AI/ML    | Python, Scikit-learn (XGBoost, RandomForest 등), CatBoost, PyTorch (DL) |
-| 크롤링      | Selenium                                                               |
-
-## 과제 정의서
-
-[과제 정의서 1](attachments/AI_19조_조별과제정의서-1.png)
-
-[과제 정의서 2](attachments/AI_19조_조별과제정의서-2.png)
-
-[과제 정의서 3](attachments/AI_19조_조별과제정의서-3.png)
+- 이 페이지는 팀 전체 구현 범위를 설명합니다. 개인 기여 범위는 저장소의 commit과 문서로 추가 정리할 예정입니다.
+- 운영 환경의 latency, throughput, drift를 측정한 프로젝트는 아닙니다.
+- 예측값은 의사결정을 보조하는 실험 결과이며 실제 당첨 가능성을 보장하지 않습니다.

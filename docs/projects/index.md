@@ -1,9 +1,14 @@
 # 프로젝트
 
-진행하거나 기여한 프로젝트입니다.
+모델 하나보다 데이터가 들어와 결과가 나갈 때까지의 경계를 어떻게 설계했는지에
+초점을 맞춰 정리합니다. 완료된 결과와 구현 예정 항목을 구분해 표시합니다.
 
-## 목록
+| 프로젝트 | 상태 | 보여 주는 역량 | 근거 |
+| --- | --- | --- | --- |
+| [[MetaScale]] | 구현 예정 | 데이터 계약, 학습 pipeline, 서빙, 모니터링 | 설계·12주 완료 조건 |
+| [[FunOMIC2 Nextflow Pipeline]] | 완료 | 대용량 파일 workflow, 컨테이너, 재시작 | 코드 저장소 |
+| [[KT Aivle Big Project]] | 완료 | 데이터 수집, tabular ML, 애플리케이션 연동 | 코드 저장소·과제 정의서 |
+| [[KLAS Macro]] | 완료 | 반복 업무 자동화, 데스크톱 GUI | 코드 저장소 |
 
-- [FunOMIC2 Nextflow Pipeline](<FunOMIC2 Nextflow Pipeline.md>)
-- [KLAS 서지정보 매크로](<KLAS Macro.md>)
-- [KT Aivle Big Project](<KT Aivle Big Project.md>)
+> [!note] 표기 원칙
+> 성능 수치, 처리량, 배포 상태는 실제로 측정하거나 확인한 경우에만 기록합니다.

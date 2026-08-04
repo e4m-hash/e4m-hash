@@ -5,4 +5,4 @@
 ## 목록
 
 - [Best practices for developing microbiome-based disease diagnostic classifiers through machine learning](<Best practices for developing microbiome-based disease diagnostic classifiers through machine learning.md>)
-- [Genomic language models (gLMs) decode bacterial genomes](<Summary.md>) — [본문(ko)](<Main (ko).md>)
+- [Genomic language models (gLMs) decode bacterial genomes](<Genomic language models (gLMs) decode bacterial genomes for improved gene prediction and translation initiation site identification/Summary.md>) — [본문(ko)](<Genomic language models (gLMs) decode bacterial genomes for improved gene prediction and translation initiation site identification/Main (ko).md>)
