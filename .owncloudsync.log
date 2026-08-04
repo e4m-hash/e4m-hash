@@ -932,3 +932,20 @@ Log for:/home/e4m/.local/vaults/priv/
 #=#=#=# Syncrun started 2026-08-04T01:07:59Z
 #=#=#=#=# Propagation starts 2026-08-04T01:08:00Z (last step: 165 msec , total: 165 msec) 
 #=#=#=# Syncrun finished 2026-08-04T01:08:00Z (last step: 1 msec , total: 166 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:08:09Z
+#=#=#=#=# Propagation starts 2026-08-04T01:08:10Z (last step: 168 msec , total: 168 msec) 
+ | .git/COMMIT_EDITMSG | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805689 | 9110d60cdc0bec11e7291d220af2cf0e | 34 | 00000782ockk2xy7xeee | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 34 | 1785805496 |  | 
+ | .git/index | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805689 | dc66a30307584c47a81e9244f1bac403 | 20496 | 00000442ockk2xy7xeee | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 20496 | 1785805496 |  | 
+ | .git/logs/HEAD | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805689 | a4e3b53c51b3e189f873624953313a12 | 504 | 00000422ockk2xy7xeee | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 343 | 1785805496 |  | 
+ | .git/logs/refs/heads/main | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805689 | b7eae8a5542406a127613082c0b611a8 | 504 | 00000434ockk2xy7xeee | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 343 | 1785805496 |  | 
+ | .git/refs/heads/main | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805689 | fc5f4fd7fdb36847b2d8cba90cccd37f | 41 | 00000441ockk2xy7xeee | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 41 | 1785805496 |  | 
+ | .git/objects/7b/e083cc38567602cb11e4d5f57c55c25e40567b | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805689 |  | 406 |  | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 0 | 0 |  | 
+2026-08-04T01:08:10+00:00 | .git/objects/7b | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805689 |  | 4096 | 00000803ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 3eec121a-115d-4f72-94ea-3db625db40b8 | 
+ | .git/objects/ea/53882673ccc9ff5dde155399dfbb1d396c9ad1 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805689 |  | 47046 |  | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 0 | 0 |  | 
+2026-08-04T01:08:10+00:00 | .git/objects/ea | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805689 |  | 4096 | 00000804ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 22760d32-4eeb-4e8e-b54b-1badf6b7262a | 
+2026-08-04T01:08:10+00:00 | .git/config | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805682 | 066adbef383080404562f4d57e7d0218 | 267 | 00000427ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 271 | 1785804727 | 0906cb98-7c24-4f14-b905-0071216ce9a1 | 
+ | .git/objects/d0/668aa89f5af6c2c7fb286a91641f721eca4c1c | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805689 |  | 1036481 |  | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 0 | 0 |  | 
+2026-08-04T01:08:10+00:00 | .git/objects/d0 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805689 |  | 4096 | 00000805ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 11e31bd6-64b8-4a4c-a4a8-2df0409b1bc9 | 
+ | .git/objects/8d/20f66ccb50cbf9ae6070cdc1afb2dea404060f | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805689 |  | 163 |  | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 0 | 0 |  | 
+2026-08-04T01:08:10+00:00 | .git/objects/8d | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805689 |  | 4096 | 00000806ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 74a2ff8a-9d87-4d78-b44c-ec7d84f07f9c | 
+#=#=#=# Syncrun finished 2026-08-04T01:08:10Z (last step: 453 msec , total: 621 msec) 
