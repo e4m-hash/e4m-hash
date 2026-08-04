@@ -27,12 +27,12 @@ Shell/R 기반 분석 절차를 Nextflow DSL2 워크플로로 옮기며 모듈�
 
 ## ML Engineering 역량 지도
 
-| 영역 | 현재 근거 | 다음 산출물 |
-| --- | --- | --- |
-| 데이터 파이프라인 | FunOMIC2, Nextflow, 컨테이너 | MetaScale 데이터 계약·smoke pipeline |
-| 모델링·평가 | KT Aivle, 생물통계, microbiome ML 논문 | cohort-aware baseline·model card |
-| 서빙 | Spring/React 연동 경험 | versioned model bundle·FastAPI contract |
-| 운영 | Docker/Podman, Kubernetes 학습 | CI/CD·metrics·drift dashboard |
+| 영역        | 현재 근거                            | 다음 산출물                                  |
+| --------- | -------------------------------- | --------------------------------------- |
+| 데이터 파이프라인 | FunOMIC2, Nextflow, 컨테이너         | MetaScale 데이터 계약·smoke pipeline         |
+| 모델링·평가    | KT Aivle, 생물통계, microbiome ML 논문 | cohort-aware baseline·model card        |
+| 서빙        | Spring/React 연동 경험               | versioned model bundle·FastAPI contract |
+| 운영        | Docker/Podman, Kubernetes 학습     | CI/CD·metrics·drift dashboard           |
 
 → [ML Engineering 노트](notes/ml-engineering/index.md)
 

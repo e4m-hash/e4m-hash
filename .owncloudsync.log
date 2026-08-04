@@ -969,3 +969,627 @@ Log for:/home/e4m/.local/vaults/priv/
 2026-08-04T01:08:20+00:00 | .git/objects/bb | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805691 |  | 4096 | 00000819ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 1b912780-2a3e-4862-8597-d9f81fb7d4d1 | 
 2026-08-04T01:08:21+00:00 | .git/objects/ea/6a545b620df97c8d0057ac2075af962e835bce | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805691 | 5f9ffc839ee7032b075f102b583caff6 | 1041470 | 00000821ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 26b2525e-437d-4335-b4e2-daf18d50a67e | 
 #=#=#=# Syncrun finished 2026-08-04T01:08:21Z (last step: 1410 msec , total: 1558 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:08:29Z
+#=#=#=#=# Propagation starts 2026-08-04T01:08:30Z (last step: 909 msec , total: 909 msec) 
+2026-08-04T01:08:30+00:00 | .git/refs/heads/main | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805708 | 2fac8eee377e9426cbfef5097fdda94e | 41 | 00000441ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 41 | 1785805691 | e088ee3c-9a20-4dec-afa0-fb5792e77a27 | 
+2026-08-04T01:08:31+00:00 | .git/logs/refs/heads/main | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805708 | 6d8b241f02554d57825f68af2d274f3a | 826 | 00000434ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 665 | 1785805691 | ccd99f72-68a7-48e9-bf74-506108ae6379 | 
+2026-08-04T01:08:30+00:00 | .git/logs/refs/remotes/origin/main | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805704 | 9d3318533795f4e8dcc7f2171133a923 | 134 | 00000823ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | b1b6d493-48f9-487f-ae1b-c263595c287e | 
+2026-08-04T01:08:31+00:00 | .git/logs/HEAD | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805708 | 38d64982f363af96f5d52a1f5695cb80 | 826 | 00000422ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 665 | 1785805691 | eabf9f90-d142-47cc-bb75-52a89e222b00 | 
+2026-08-04T01:08:31+00:00 | .git/COMMIT_EDITMSG | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805708 | 99bfbbc6d7ed2550dc6e953df85280e3 | 34 | 00000782ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 34 | 1785805691 | c54023ff-fe6b-485b-aa44-f1c424c5ec63 | 
+ | .git/FETCH_HEAD | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805711 | a04e6b9b3a821ca4e826f118cac15bed | 213 | 00000786ockk2xy7xeee | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 213 | 1785805694 |  | 
+2026-08-04T01:08:31+00:00 | .git/refs/remotes/origin/main | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805704 | 23067f1871e3c681c3b67f7f6cb4427e | 41 | 00000829ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | ce6b626a-72cb-4f9e-85a9-96b9b869a77f | 
+2026-08-04T01:08:31+00:00 | .git/index | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805708 | 1eea8e253ada47f31144459200f81c6b | 20496 | 00000442ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 20496 | 1785805691 | 12385545-cc2a-4c04-8035-20d559ce62bc | 
+2026-08-04T01:08:31+00:00 | .git/objects/2a/981fe094373e907c7d1d5de04c8c7eab4f8065 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805708 | 36ede2f5246ff81f7efa1153f900f5a4 | 48748 | 00000833ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 6802e8d1-94cd-48ce-a363-2d7361ba1c5d | 
+2026-08-04T01:08:30+00:00 | .git/objects/2a | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805708 |  | 4096 | 00000822ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | d95720df-2967-4b37-ac49-12ee445cc351 | 
+2026-08-04T01:08:31+00:00 | .git/objects/c3/de64aa1913d57ea3b278569e239caf9824ffdc | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805708 | dcb4df4fb63ec1077c0de5d4856a3fd8 | 406 | 00000835ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 7d2fb728-3b93-4af0-b135-bb650305f4ac | 
+2026-08-04T01:08:31+00:00 | .git/objects/c3 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805708 |  | 4096 | 00000832ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 7924bde8-774c-424d-9289-983c71e52482 | 
+2026-08-04T01:08:31+00:00 | .git/objects/40/993b7279ef9eb7b2628b38f6fd3d5ecf67b0c7 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805708 | 226d162c8556bf2616c1a71e292cbeae | 166 | 00000834ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 529075ae-05d1-4f27-ab16-7c9d60df6c24 | 
+2026-08-04T01:08:31+00:00 | .git/objects/40 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805708 |  | 4096 | 00000826ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 64637a58-aff0-427b-8b4b-7e9df71868d7 | 
+2026-08-04T01:08:31+00:00 | .git/objects/5f/9bcdbe1d74d298f36b12a1499d4a22157a38d3 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805708 | 54d3f1ad9aeddb64edda559b52361b37 | 1052428 | 00000836ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 34776052-c036-4806-8210-c9977bb4c4df | 
+2026-08-04T01:08:31+00:00 | .git/objects/5f | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805708 |  | 4096 | 00000828ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | b4db710c-48dc-46c8-a7d5-316a36dc2f6e | 
+#=#=#=# Syncrun finished 2026-08-04T01:08:32Z (last step: 1324 msec , total: 2234 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:08:34Z
+#=#=#=#=# Propagation starts 2026-08-04T01:08:35Z (last step: 979 msec , total: 979 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:08:35Z (last step: 2 msec , total: 982 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:08:36Z
+#=#=#=#=# Propagation starts 2026-08-04T01:08:36Z (last step: 152 msec , total: 152 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:08:36Z (last step: 1 msec , total: 153 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:08:39Z
+#=#=#=#=# Propagation starts 2026-08-04T01:08:40Z (last step: 151 msec , total: 151 msec) 
+ | .git/logs/refs/remotes/origin/main | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805719 | 9d3318533795f4e8dcc7f2171133a923 | 268 | 00000823ockk2xy7xeee | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 134 | 1785805704 |  | 
+ | .git/refs/remotes/origin/main | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805719 | 23067f1871e3c681c3b67f7f6cb4427e | 41 | 00000829ockk2xy7xeee | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 41 | 1785805704 |  | 
+2026-08-04T01:08:40+00:00 | .git/FETCH_HEAD | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805711 | 81921251c560644a4e844fccf4b33077 | 213 | 00000786ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 213 | 1785805694 | 89211f3f-fae1-443a-b88c-6771be672688 | 
+2026-08-04T01:08:40+00:00 | .git/ORIG_HEAD | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805711 | 6bccb8eb85edb0f56ab91da030f449cd | 41 | 00000789ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 41 | 1785805694 | 03b722e7-b49a-4021-b4c2-b64982c364c1 | 
+#=#=#=# Syncrun finished 2026-08-04T01:08:40Z (last step: 320 msec , total: 472 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:08:42Z
+#=#=#=#=# Propagation starts 2026-08-04T01:08:42Z (last step: 285 msec , total: 285 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:08:42Z (last step: 1 msec , total: 287 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:08:49Z
+#=#=#=#=# Propagation starts 2026-08-04T01:08:50Z (last step: 252 msec , total: 252 msec) 
+2026-08-04T01:08:50+00:00 | .git/refs/remotes/origin/main | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805719 | 6e7de85de7880478db47d45b6d71cf9e | 41 | 00000829ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 41 | 1785805704 | 269422f7-fac4-411b-93d5-c7f885e91b5d | 
+#=#=#=# Syncrun finished 2026-08-04T01:08:50Z (last step: 170 msec , total: 423 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:08:59Z
+#=#=#=#=# Propagation starts 2026-08-04T01:09:00Z (last step: 724 msec , total: 724 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:09:00Z (last step: 1 msec , total: 725 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:09:36Z
+#=#=#=#=# Propagation starts 2026-08-04T01:09:36Z (last step: 141 msec , total: 141 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:09:36Z (last step: 1 msec , total: 142 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:09:59Z
+#=#=#=#=# Propagation starts 2026-08-04T01:10:00Z (last step: 165 msec , total: 165 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:10:00Z (last step: 1 msec , total: 167 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:25:08Z
+#=#=#=#=# Propagation starts 2026-08-04T01:25:08Z (last step: 338 msec , total: 338 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:25:08Z (last step: 1 msec , total: 339 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:26:11Z
+#=#=#=#=# Propagation starts 2026-08-04T01:26:11Z (last step: 338 msec , total: 338 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:26:11Z (last step: 1 msec , total: 339 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:27:12Z
+#=#=#=#=# Propagation starts 2026-08-04T01:27:13Z (last step: 534 msec , total: 534 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:27:13Z (last step: 1 msec , total: 536 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:28:14Z
+#=#=#=#=# Propagation starts 2026-08-04T01:28:14Z (last step: 320 msec , total: 320 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:28:14Z (last step: 1 msec , total: 321 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:29:16Z
+#=#=#=#=# Propagation starts 2026-08-04T01:29:17Z (last step: 316 msec , total: 316 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:29:17Z (last step: 1 msec , total: 317 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:30:17Z
+#=#=#=#=# Propagation starts 2026-08-04T01:30:18Z (last step: 354 msec , total: 354 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:30:18Z (last step: 1 msec , total: 356 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:31:20Z
+#=#=#=#=# Propagation starts 2026-08-04T01:31:21Z (last step: 337 msec , total: 337 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:31:21Z (last step: 1 msec , total: 338 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:32:22Z
+#=#=#=#=# Propagation starts 2026-08-04T01:32:22Z (last step: 323 msec , total: 323 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:32:22Z (last step: 1 msec , total: 324 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:33:23Z
+#=#=#=#=# Propagation starts 2026-08-04T01:33:24Z (last step: 332 msec , total: 332 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:33:24Z (last step: 0 msec , total: 333 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:34:26Z
+#=#=#=#=# Propagation starts 2026-08-04T01:34:26Z (last step: 326 msec , total: 326 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:34:26Z (last step: 1 msec , total: 327 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:35:28Z
+#=#=#=#=# Propagation starts 2026-08-04T01:35:28Z (last step: 327 msec , total: 328 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:35:28Z (last step: 1 msec , total: 329 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:36:30Z
+#=#=#=#=# Propagation starts 2026-08-04T01:36:30Z (last step: 322 msec , total: 322 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:36:30Z (last step: 1 msec , total: 323 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:37:32Z
+#=#=#=#=# Propagation starts 2026-08-04T01:37:32Z (last step: 324 msec , total: 324 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:37:32Z (last step: 1 msec , total: 325 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:38:34Z
+#=#=#=#=# Propagation starts 2026-08-04T01:38:34Z (last step: 321 msec , total: 321 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:38:34Z (last step: 1 msec , total: 323 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:38:36Z
+#=#=#=#=# Propagation starts 2026-08-04T01:38:36Z (last step: 305 msec , total: 305 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:38:36Z (last step: 0 msec , total: 306 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:39:36Z
+#=#=#=#=# Propagation starts 2026-08-04T01:39:37Z (last step: 320 msec , total: 320 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:39:37Z (last step: 0 msec , total: 321 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:51:39Z
+#=#=#=#=# Propagation starts 2026-08-04T01:51:40Z (last step: 171 msec , total: 171 msec) 
+2026-08-04T01:51:40+00:00 | .git/logs/refs/remotes/origin/main | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785805719 | 6b10d485decd17fdd5edd6ba85211f2c | 268 | 00000823ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 134 | 1785805704 | c2e71f5d-db01-4acc-b9f1-48438406511e | 
+2026-08-04T01:51:40+00:00 | .obsidian/app.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785808293 | bc9a0efda3fd6acd0fc4cac8f07f2879 | 249 | 00000646ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 249 | 1785805193 | 049ae23d-7909-438a-ac20-e8ed5e913c42 | 
+2026-08-04T01:51:40+00:00 | .obsidian/appearance.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785808293 | 064b0c253ab7775fb019372f4e05df53 | 53 | 00000648ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 53 | 1785805193 | 05a9dc7e-7c1a-4ca5-acdc-20d2e751e269 | 
+2026-08-04T01:51:40+00:00 | .git/objects/8d/20f66ccb50cbf9ae6070cdc1afb2dea404060f | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805689 | ede8d1868349a3a1ef1e252dc2fe26e2 | 163 | 00000847ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | be6a5f7e-5837-4bdd-a1f1-d27db0b9bbb8 | 
+2026-08-04T01:51:40+00:00 | .obsidian/community-plugins.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785808294 | 45e0ec8de09aef01e740ee0cc1fde425 | 421 | 00000752ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 421 | 1785805431 | c41df308-fa49-4ef4-a3da-999beca21bb7 | 
+2026-08-04T01:51:40+00:00 | .obsidian/core-plugins.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785808293 | b13a50955afefa56c872977d2a1e404c | 696 | 00000647ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 696 | 1785805193 | 079632a3-dbed-494d-a162-5288714da0ab | 
+2026-08-04T01:51:41+00:00 | .obsidian/plugins/editing-toolbar/data.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785808293 | e437990dffb55950719b80d375a585bf | 31564 | 00000690ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 31564 | 1785805194 | 1b48d18c-fe01-4170-8cf4-be008ec9cfdd | 
+2026-08-04T01:51:40+00:00 | .git/objects/d0/668aa89f5af6c2c7fb286a91641f721eca4c1c | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805689 | 28a6b5a005b9686f85fb991f6a4cb535 | 1036481 | 00000851ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | a51f8053-319a-4c43-bb5d-a555f40e75d8 | 
+2026-08-04T01:51:41+00:00 | .obsidian/plugins/obsidian-icon-folder/data.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785808292 | 95bd7613334c6297c680e1f9e5bbf1ab | 789 | 00000714ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 789 | 1785805193 | 95226da5-2329-4764-b4a7-bd4393a5be90 | 
+2026-08-04T01:51:40+00:00 | .git/objects/7b/e083cc38567602cb11e4d5f57c55c25e40567b | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785805689 | 7161c0e3cd3bd436876b467862ac8f0d | 406 | 00000845ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | b3d6ce47-4c63-42c9-8439-4f7a9ae27e47 | 
+2026-08-04T01:51:41+00:00 | .obsidian/plugins/table-editor-obsidian/data.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785808293 | d6fd8d3321f47dbf170befea8ba1acc5 | 94 | 00000747ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 94 | 1785805194 | d7acf2cc-a0f8-42ae-8094-818ebb0b1dda | 
+2026-08-04T01:51:41+00:00 | .obsidian/types.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785808294 | 8f949493590f11763ae5eed046af3df2 | 1021 | 00000761ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 1021 | 1785805194 | a8a07329-5813-4e9f-aa2d-1bde94280dd5 | 
+2026-08-04T01:51:41+00:00 | .obsidian/plugins/obsidian-git/obsidian_askpass.sh | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785808294 | 7b04da25a0379c682f52fbae86b3fea8 | 402 | 00000713ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 402 | 1785805431 | 75da2fb7-ceec-446e-bc20-868475dc17ff | 
+2026-08-04T01:51:41+00:00 | .obsidian/plugins/obsidian-minimal-settings/data.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785808293 | b18ada806dca2b71f61e78c45da0f3d6 | 884 | 00000726ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 884 | 1785805194 | 886e6016-c91c-473c-b838-3b4f78758b77 | 
+#=#=#=# Syncrun finished 2026-08-04T01:51:41Z (last step: 1279 msec , total: 1450 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:51:49Z
+#=#=#=#=# Propagation starts 2026-08-04T01:51:51Z (last step: 1108 msec , total: 1108 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:51:51Z (last step: 2 msec , total: 1111 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:52:19Z
+#=#=#=#=# Propagation starts 2026-08-04T01:52:20Z (last step: 169 msec , total: 169 msec) 
+2026-08-04T01:52:20+00:00 | docs/projects/KLAS (bibliographic information) Macro.md -> docs/projects/KLAS Macro.md | CSyncEnums::CSYNC_INSTRUCTION_RENAME | OCC::SyncFileItem::Up | | 1785804727 | 3d86a3af6dd6c4e0ab23b745162f256a | 1343 | 00000634ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 2ec26923-fc48-4beb-b640-5faf1d6522d6 | 
+2026-08-04T01:52:20+00:00 | docs/projects/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785808332 | 2e7e13ffdb5da8a2ee94982073fdf8cd | 242 | 00000637ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 270 | 1785804727 | f111e2a9-0e85-4774-8f5d-4e5454cbfa08 | 
+#=#=#=# Syncrun finished 2026-08-04T01:52:20Z (last step: 335 msec , total: 504 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:52:36Z
+#=#=#=#=# Propagation starts 2026-08-04T01:52:36Z (last step: 412 msec , total: 412 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:52:36Z (last step: 1 msec , total: 413 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:52:39Z
+#=#=#=#=# Propagation starts 2026-08-04T01:52:40Z (last step: 149 msec , total: 149 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:52:40Z (last step: 1 msec , total: 150 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:53:39Z
+#=#=#=#=# Propagation starts 2026-08-04T01:53:40Z (last step: 161 msec , total: 161 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:53:40Z (last step: 1 msec , total: 162 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:54:39Z
+#=#=#=#=# Propagation starts 2026-08-04T01:54:40Z (last step: 146 msec , total: 146 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:54:40Z (last step: 1 msec , total: 147 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:55:19Z
+#=#=#=#=# Propagation starts 2026-08-04T01:55:20Z (last step: 165 msec , total: 165 msec) 
+2026-08-04T01:55:20+00:00 | docs/projects/metascale_ml_engineering_project_design.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785808497 | efe4dc5c87c7388bd099510e610bd03f | 36151 | 00000861ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 5a58d25c-32f4-4681-ad9e-dce63fe1b034 | 
+#=#=#=# Syncrun finished 2026-08-04T01:55:20Z (last step: 370 msec , total: 535 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:55:29Z
+#=#=#=#=# Propagation starts 2026-08-04T01:55:30Z (last step: 437 msec , total: 437 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:55:30Z (last step: 1 msec , total: 439 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:55:36Z
+#=#=#=#=# Propagation starts 2026-08-04T01:55:36Z (last step: 140 msec , total: 140 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:55:36Z (last step: 1 msec , total: 141 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:55:39Z
+#=#=#=#=# Propagation starts 2026-08-04T01:55:40Z (last step: 149 msec , total: 149 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:55:40Z (last step: 1 msec , total: 150 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:56:08Z
+#=#=#=#=# Propagation starts 2026-08-04T01:56:09Z (last step: 146 msec , total: 146 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:56:09Z (last step: 1 msec , total: 148 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:56:39Z
+#=#=#=#=# Propagation starts 2026-08-04T01:56:40Z (last step: 216 msec , total: 216 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:56:40Z (last step: 1 msec , total: 217 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:57:10Z
+#=#=#=#=# Propagation starts 2026-08-04T01:57:10Z (last step: 142 msec , total: 142 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:57:10Z (last step: 0 msec , total: 143 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:57:39Z
+#=#=#=#=# Propagation starts 2026-08-04T01:57:40Z (last step: 164 msec , total: 164 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:57:40Z (last step: 1 msec , total: 165 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:58:12Z
+#=#=#=#=# Propagation starts 2026-08-04T01:58:13Z (last step: 143 msec , total: 143 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:58:13Z (last step: 1 msec , total: 144 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:58:39Z
+#=#=#=#=# Propagation starts 2026-08-04T01:58:40Z (last step: 144 msec , total: 144 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:58:40Z (last step: 1 msec , total: 145 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:59:14Z
+#=#=#=#=# Propagation starts 2026-08-04T01:59:14Z (last step: 145 msec , total: 145 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:59:14Z (last step: 1 msec , total: 146 msec) 
+#=#=#=# Syncrun started 2026-08-04T01:59:39Z
+#=#=#=#=# Propagation starts 2026-08-04T01:59:40Z (last step: 158 msec , total: 158 msec) 
+#=#=#=# Syncrun finished 2026-08-04T01:59:40Z (last step: 1 msec , total: 159 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:00:16Z
+#=#=#=#=# Propagation starts 2026-08-04T02:00:16Z (last step: 145 msec , total: 145 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:00:16Z (last step: 1 msec , total: 147 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:00:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:00:40Z (last step: 215 msec , total: 215 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:00:40Z (last step: 1 msec , total: 216 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:01:18Z
+#=#=#=#=# Propagation starts 2026-08-04T02:01:18Z (last step: 144 msec , total: 144 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:01:18Z (last step: 1 msec , total: 145 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:01:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:01:40Z (last step: 338 msec , total: 338 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:01:40Z (last step: 1 msec , total: 339 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:02:20Z
+#=#=#=#=# Propagation starts 2026-08-04T02:02:20Z (last step: 145 msec , total: 145 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:02:20Z (last step: 1 msec , total: 146 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:02:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:02:40Z (last step: 164 msec , total: 164 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:02:40Z (last step: 1 msec , total: 165 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:03:22Z
+#=#=#=#=# Propagation starts 2026-08-04T02:03:22Z (last step: 144 msec , total: 144 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:03:22Z (last step: 1 msec , total: 145 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:03:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:03:40Z (last step: 163 msec , total: 163 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:03:40Z (last step: 1 msec , total: 165 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:04:24Z
+#=#=#=#=# Propagation starts 2026-08-04T02:04:25Z (last step: 143 msec , total: 143 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:04:25Z (last step: 1 msec , total: 145 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:04:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:04:40Z (last step: 160 msec , total: 160 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:04:40Z (last step: 1 msec , total: 162 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:05:26Z
+#=#=#=#=# Propagation starts 2026-08-04T02:05:27Z (last step: 150 msec , total: 150 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:05:27Z (last step: 1 msec , total: 151 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:05:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:05:40Z (last step: 161 msec , total: 161 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:05:40Z (last step: 1 msec , total: 162 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:06:28Z
+#=#=#=#=# Propagation starts 2026-08-04T02:06:28Z (last step: 143 msec , total: 143 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:06:28Z (last step: 1 msec , total: 144 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:06:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:06:40Z (last step: 149 msec , total: 149 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:06:40Z (last step: 1 msec , total: 150 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:07:30Z
+#=#=#=#=# Propagation starts 2026-08-04T02:07:31Z (last step: 159 msec , total: 159 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:07:31Z (last step: 1 msec , total: 160 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:07:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:07:40Z (last step: 160 msec , total: 160 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:07:40Z (last step: 1 msec , total: 161 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:08:32Z
+#=#=#=#=# Propagation starts 2026-08-04T02:08:33Z (last step: 144 msec , total: 144 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:08:33Z (last step: 0 msec , total: 145 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:08:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:08:40Z (last step: 151 msec , total: 151 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:08:40Z (last step: 1 msec , total: 152 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:09:34Z
+#=#=#=#=# Propagation starts 2026-08-04T02:09:34Z (last step: 146 msec , total: 146 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:09:34Z (last step: 1 msec , total: 148 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:09:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:09:40Z (last step: 151 msec , total: 151 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:09:40Z (last step: 1 msec , total: 153 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:10:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:10:36Z (last step: 145 msec , total: 145 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:10:36Z (last step: 1 msec , total: 146 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:10:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:10:40Z (last step: 155 msec , total: 155 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:10:40Z (last step: 1 msec , total: 156 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:11:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:11:40Z (last step: 150 msec , total: 150 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:11:40Z (last step: 1 msec , total: 152 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:12:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:12:40Z (last step: 160 msec , total: 160 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:12:40Z (last step: 1 msec , total: 161 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:13:09Z
+#=#=#=#=# Propagation starts 2026-08-04T02:13:10Z (last step: 157 msec , total: 157 msec) 
+2026-08-04T02:13:10+00:00 | .git/logs/HEAD | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809585 | 799d4883653e721d416cd7c94381a134 | 1019 | 00000422ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 826 | 1785805708 | 1284750e-57db-4aa3-87db-db02ff43f9a0 | 
+2026-08-04T02:13:10+00:00 | .git/HEAD | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809585 | 1040cc63b2551fc81e652d6791c5248a | 60 | 00000426ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 21 | 1785804727 | 25dccffc-0a47-4337-94c0-0089e168f637 | 
+2026-08-04T02:13:10+00:00 | .git/logs/refs/heads/archive/bioinformatics-portfolio-2026-08-04 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809585 | d0f664a91a6b70f3db1b1fe80e1e6311 | 145 | 00000866ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | af38db7f-d32e-4c51-9f3f-d5c891b99cd7 | 
+2026-08-04T02:13:10+00:00 | .git/logs/refs/heads/archive | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809585 |  | 4096 | 00000862ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | d8bcd04e-ff8b-4c63-bb66-55599c6a06b1 | 
+2026-08-04T02:13:10+00:00 | .git/refs/heads/archive/bioinformatics-portfolio-2026-08-04 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809585 | ac3cb215a1c967aa4b6a2cba83e48678 | 41 | 00000867ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 8c41f426-de80-4776-97e8-f512cb92fa5f | 
+2026-08-04T02:13:10+00:00 | .git/refs/heads/archive | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809585 |  | 4096 | 00000864ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 5b2d43d5-35f4-46dc-8382-3b93dff2cd3d | 
+#=#=#=# Syncrun finished 2026-08-04T02:13:11Z (last step: 958 msec , total: 1115 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:13:19Z
+#=#=#=#=# Propagation starts 2026-08-04T02:13:20Z (last step: 1073 msec , total: 1073 msec) 
+2026-08-04T02:13:21+00:00 | .git/index | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809597 | 47ba0980b0bfb1565fb63a3f3978aade | 20531 | 00000442ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 20496 | 1785805708 | 4c789cb7-7f1d-4b24-940f-d6992cad93d2 | 
+2026-08-04T02:13:21+00:00 | .git/objects/92/5dbe8ac60cdf6dd9ae8a4d82ec2c64b099b7a5 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809597 | af3267fb5ebc21c0718368d8cf1d34d8 | 193 | 00000871ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | ef296517-3048-43f2-921f-16ca2f7defea | 
+2026-08-04T02:13:21+00:00 | .git/objects/92 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809597 |  | 4096 | 00000868ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 5d92a06c-3554-48a1-99a0-c30222998875 | 
+2026-08-04T02:13:21+00:00 | .git/objects/b3/016a72c7896dda711d08665f0216ecde1acb99 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809597 | d49be1389d1f58f274d73b3fecca77be | 14048 | 00000873ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | ee2c4bd0-807d-4535-af1b-02a0f2c21326 | 
+2026-08-04T02:13:21+00:00 | .git/objects/b3 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809597 |  | 4096 | 00000870ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 80a38279-8d3d-40fa-af56-785581964f78 | 
+2026-08-04T02:13:24+00:00 | .git/objects/pack/pack-173258ef119fb1448a5efe2d010b1d3bb58f0702.pack | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809597 | ca222da50138d9a4277ec61a9b6bd79d | 10765382 | 00000474ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 10765382 | 1785804727 | 648b9579-fffd-4dc7-a70c-e15998ead0ee | 
+#=#=#=# Syncrun finished 2026-08-04T02:13:24Z (last step: 3671 msec , total: 4745 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:13:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:13:36Z (last step: 762 msec , total: 762 msec) 
+2026-08-04T02:13:36+00:00 | .git/objects/e2 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809610 |  | 4096 | 00000880ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 843f5b75-7d97-4fca-9aa2-5a533938e403 | 
+2026-08-04T02:13:37+00:00 | .git/COMMIT_EDITMSG | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809610 | 7fa133b11c6f4cfb7bee8245cc732954 | 61 | 00000782ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 34 | 1785805708 | 9fefd0e4-1241-411f-96b2-efdca94d2df2 | 
+2026-08-04T02:13:36+00:00 | .git/objects/4d | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809610 |  | 4096 | 00000879ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 82901c56-2825-4c1e-a5d0-75904ec3fac5 | 
+2026-08-04T02:13:37+00:00 | .git/objects/f2 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809610 |  | 4096 | 00000883ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | b51a2a2d-d94d-49a2-95b1-08a5bd9c6cb2 | 
+2026-08-04T02:13:37+00:00 | .git/objects/a4 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809610 |  | 4096 | 00000881ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 1e1a17dd-30bf-4a62-91d4-ccf9a8fced5b | 
+2026-08-04T02:13:37+00:00 | .git/index | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809610 | c424b03b3b162f9267782cb7d70844ea | 20592 | 00000442ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 20531 | 1785809597 | c6123cda-039e-4d6c-b07f-e280c3845a1c | 
+#=#=#=# Syncrun finished 2026-08-04T02:13:37Z (last step: 1032 msec , total: 1794 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:13:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:13:40Z (last step: 856 msec , total: 856 msec) 
+2026-08-04T02:13:40+00:00 | .git/objects/a4/5954e7404f03f35b09b9be94305285274ee93a | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809610 | 8270e1007147b0693df2bb84840b747a | 184 | 00000886ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 6645409b-5cf2-42d9-82c3-c955194079b7 | 
+2026-08-04T02:13:41+00:00 | .git/HEAD | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809617 | fb8e1d6d349ad925d0a12d9cd171fae5 | 43 | 00000426ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 60 | 1785809585 | 847fe5fa-0f93-4154-9338-f7204a959124 | 
+2026-08-04T02:13:41+00:00 | .git/logs/refs/heads/archive/bioinformatics-portfolio-2026-08-04 | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809610 | cf6055129b3758b8ce1b2a51ebca3fa0 | 333 | 00000866ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 145 | 1785809585 | 260ecb0e-5807-419f-bafd-9cc5076bbeae | 
+2026-08-04T02:13:41+00:00 | .git/logs/HEAD | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809617 | de05e990ec97356883c3f203bb3711bf | 1422 | 00000422ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 1019 | 1785809585 | ce8b6507-1f16-49ef-ac7e-fbd5a7859777 | 
+2026-08-04T02:13:41+00:00 | .git/objects/4d/d57469601ee08aed0e64205ef42687825878fe | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809610 | bbe54b51cf0ab54ce8b675368b51b41d | 239 | 00000888ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 6a0de091-6b9d-4eaf-b971-d7dbdc29dead | 
+2026-08-04T02:13:41+00:00 | .git/logs/refs/heads/feat/ml-engineer-portfolio | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809617 | c798243fa558647a42accf4754d51e3f | 145 | 00000889ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | a9627f28-4398-401e-8b20-5f78833229a1 | 
+2026-08-04T02:13:40+00:00 | .git/logs/refs/heads/feat | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809617 |  | 4096 | 00000885ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | e902693e-eabe-4168-9b2c-6f01ae5b6a78 | 
+2026-08-04T02:13:41+00:00 | .git/refs/heads/archive/bioinformatics-portfolio-2026-08-04 | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809610 | 577e1ef3145014867e12533ef2c499c8 | 41 | 00000867ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 41 | 1785809585 | c8afff56-b945-45cc-9772-fb7f804a54e3 | 
+2026-08-04T02:13:41+00:00 | .git/objects/f2/50731bbb5ab5a92fb1400eae45ea7bbb620f2b | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809610 | 949c3394072e086fe97f0665bc615658 | 406 | 00000891ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | f4b978bb-5b9b-46a6-a733-aa009026d333 | 
+2026-08-04T02:13:41+00:00 | .git/refs/heads/feat/ml-engineer-portfolio | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809617 | de0e51af84e31fce5fdb74f9b25ce8f1 | 41 | 00000898ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 38ec500e-1e79-4451-9f70-885a84234507 | 
+2026-08-04T02:13:41+00:00 | .git/refs/heads/feat | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809617 |  | 4096 | 00000887ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 9fbecd65-d195-4ed0-aab7-ef239c446ede | 
+2026-08-04T02:13:41+00:00 | .git/objects/e2/1a98175d1df71043130d786d5c462bb9d87aaa | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809610 | a0314277f70666d26077e22d2aad98a7 | 311 | 00000892ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | d62dd8b9-d278-4d67-b1ba-01e3c6afb651 | 
+#=#=#=# Syncrun finished 2026-08-04T02:13:42Z (last step: 1276 msec , total: 2132 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:14:19Z
+#=#=#=#=# Propagation starts 2026-08-04T02:14:21Z (last step: 1312 msec , total: 1312 msec) 
+2026-08-04T02:14:21+00:00 | docs/projects/metascale_ml_engineering_project_design.md -> career/MetaScale 상세 설계.md | CSyncEnums::CSYNC_INSTRUCTION_RENAME | OCC::SyncFileItem::Up | | 1785808497 | efe4dc5c87c7388bd099510e610bd03f | 36151 | 00000861ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 1fe7a315-1bff-4737-bf6a-960343f5f667 | 
+2026-08-04T02:14:21+00:00 | career | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809654 |  | 4096 | 00000899ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 1f8cb170-0c4d-4872-b606-04dc114f17bd | 
+2026-08-04T02:14:21+00:00 | .git/index | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809654 | 1c9b6accccdee86d165515fe2192f6de | 20507 | 00000442ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 20592 | 1785809610 | e22ee2dd-164e-4dac-aae0-e1641e670c09 | 
+#=#=#=# Syncrun finished 2026-08-04T02:14:21Z (last step: 490 msec , total: 1803 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:14:29Z
+#=#=#=#=# Propagation starts 2026-08-04T02:14:30Z (last step: 636 msec , total: 636 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:14:30Z (last step: 1 msec , total: 638 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:14:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:14:36Z (last step: 140 msec , total: 140 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:14:36Z (last step: 1 msec , total: 141 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:14:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:14:40Z (last step: 160 msec , total: 160 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:14:40Z (last step: 1 msec , total: 161 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:15:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:15:40Z (last step: 144 msec , total: 144 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:15:40Z (last step: 1 msec , total: 145 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:16:29Z
+#=#=#=#=# Propagation starts 2026-08-04T02:16:30Z (last step: 163 msec , total: 163 msec) 
+2026-08-04T02:16:30+00:00 | docs/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809781 | 622357dfd92eacf6b4c43fa31e0225b2 | 2029 | 00000639ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 961 | 1785804727 | fe8e1eb6-3171-45dc-ac81-1f4ffdb9f1ae | 
+2026-08-04T02:16:30+00:00 | docs/.pages | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809785 | 30b0435f938e51d1672b495eb6e95e16 | 102 | 00000636ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 102 | 1785804727 | 8e5240a4-dab7-4fe0-8194-22842e065f77 | 
+2026-08-04T02:16:30+00:00 | docs/projects/KT Aivle Big Project.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809784 | 1057b3e3eca2321274e6b1f632bc0789 | 2595 | 00000635ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 3571 | 1785804727 | 3394c079-2645-436e-a98e-951e1f0eadeb | 
+2026-08-04T02:16:30+00:00 | docs/about.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809782 | 9e7967d54c1c665cfd96518c15c9d700 | 2501 | 00000638ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 2037 | 1785804727 | 669e3998-4349-440c-92be-f97e8152c481 | 
+2026-08-04T02:16:30+00:00 | docs/projects/FunOMIC2 Nextflow Pipeline.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809783 | da99777ba5bc48900d41914a63f1321c | 2453 | 00000633ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 2022 | 1785804727 | 51e3ce3c-30ec-41ba-8cfc-9c09ef95bc4c | 
+2026-08-04T02:16:30+00:00 | docs/projects/.pages | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809784 | 377b95c45428f6d8ba585f41cb321650 | 239 | 00000630ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 239 | 1785804727 | 9b77e765-2aa2-4581-a7bc-c762246ed030 | 
+2026-08-04T02:16:30+00:00 | docs/projects/MetaScale.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809784 | df4320bd0910ad936f7ec7733f1fdc37 | 2923 | 00000906ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | cf0c13ec-89ab-4472-9d82-96afb3cf8bf5 | 
+2026-08-04T02:16:30+00:00 | docs/projects/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809782 | 47cbaa299c666c5f34a242cd167b780e | 916 | 00000637ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 242 | 1785808332 | 1f0bd31c-c714-47f8-bddc-ca2b584a22c4 | 
+2026-08-04T02:16:30+00:00 | docs/projects/KLAS Macro.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809784 | b1663825fffa147beeb22c02636cd7a9 | 1114 | 00000634ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 1343 | 1785804727 | b92238b0-3030-4ab3-a44f-835880dbd83d | 
+#=#=#=# Syncrun finished 2026-08-04T02:16:30Z (last step: 522 msec , total: 686 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:16:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:16:37Z (last step: 412 msec , total: 412 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:16:37Z (last step: 1 msec , total: 413 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:16:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:16:40Z (last step: 166 msec , total: 166 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:16:40Z (last step: 1 msec , total: 167 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:17:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:17:40Z (last step: 149 msec , total: 149 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:17:40Z (last step: 1 msec , total: 150 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:17:59Z
+#=#=#=#=# Propagation starts 2026-08-04T02:18:00Z (last step: 165 msec , total: 165 msec) 
+2026-08-04T02:18:00+00:00 | docs/blog/posts/.agents | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809880 |  | 4096 | 00000910ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 33d8ba21-d744-4c6c-b816-f3a6b7d0b997 | 
+2026-08-04T02:18:00+00:00 | docs/notes/.codex | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809880 |  | 4096 | 00000911ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 1ecf7809-db0b-4199-8d03-691fa429e87d | 
+2026-08-04T02:18:00+00:00 | docs/notes/ai/.codex | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809880 |  | 4096 | 00000913ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 78615ef7-4d12-4848-a1fc-ea72e367369e | 
+ | docs/notes/ml-engineering/.pages | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809879 |  | 140 |  | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 0 | 0 |  | 
+2026-08-04T02:18:00+00:00 | docs/blog/posts/.codex | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809880 |  | 4096 | 00000912ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 6c163b5f-e757-4ee7-9ceb-4ee87e000955 | 
+2026-08-04T02:18:00+00:00 | docs/notes/.agents | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809880 |  | 4096 | 00000915ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | c237f01c-416e-4ba8-85c9-cab717227c21 | 
+2026-08-04T02:18:00+00:00 | docs/notes/ai/.agents | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809880 |  | 4096 | 00000914ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 243b6de0-c7a9-410d-82a8-f6dcea80f569 | 
+2026-08-04T02:18:00+00:00 | docs/notes/ml-engineering/.agents | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809880 |  | 4096 | 00000918ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 4f07b786-58e0-4381-bf5b-17053f02cb86 | 
+2026-08-04T02:18:00+00:00 | docs/notes/pipeline/.agents | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809880 |  | 4096 | 00000917ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | b17d5035-43e0-42d0-a62b-c2b70c44033d | 
+2026-08-04T02:18:00+00:00 | docs/notes/ml-engineering/.codex | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809880 |  | 4096 | 00000919ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | a8b469ec-c3be-4b67-a4a5-a29c6e0f88e7 | 
+ | docs/notes/.pages | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809879 | a6d94d9791c8dabbfb2dca5a6fc46fb5 | 169 | 00000628ockk2xy7xeee | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 235 | 1785804727 |  | 
+ | docs/notes/ai/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809879 | 0a79d892da5d555b0b3d051e134e0635 | 789 | 00000497ockk2xy7xeee | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 679 | 1785804727 |  | 
+2026-08-04T02:18:01+00:00 | docs/notes/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809877 | 7badc75c3055204b1f3b50d1e5862bbc | 1423 | 00000627ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 2396 | 1785804727 | 48c25bee-f00e-4dfb-be95-af3f5155e09b | 
+2026-08-04T02:18:01+00:00 | docs/notes/pipeline/.codex | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809880 |  | 4096 | 00000924ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | ed697e7a-58f1-46cc-93e4-acedbea2a430 | 
+2026-08-04T02:18:01+00:00 | docs/notes/pipeline/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809879 | 6e0e826be1d75ed4d5abaf6b3d592f17 | 749 | 00000553ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 632 | 1785804727 | e4590108-0ea2-4aad-99f1-2477bb685859 | 
+2026-08-04T02:18:00+00:00 | docs/notes/ml-engineering/index.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809878 | bc02c307d2eeeb97c2d5d9d4815246a1 | 2147 | 00000920ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 2d301cb2-2203-47ee-b6fc-90a33565a4e9 | 
+2026-08-04T02:18:00+00:00 | docs/notes/ml-engineering/데이터와 학습 파이프라인.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809878 | eb4b7ea6b9f5688277d65f2138ea05e0 | 1673 | 00000921ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | cc3da611-c3fc-4894-bac4-b0e0082af201 | 
+2026-08-04T02:18:01+00:00 | docs/notes/ml-engineering/서빙과 운영.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809878 | b15eb865af08df2135f40509106dcb40 | 1734 | 00000922ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 09238e34-10de-4c2f-b12b-eb32ab5f0f33 | 
+2026-08-04T02:18:01+00:00 | docs/notes/ml-engineering/평가와 신뢰성.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809878 | 6b1f3702e180593cba899a1ca099aecd | 1692 | 00000923ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | bfc04ff0-3c72-4574-b0e8-e6f3ef23569b | 
+2026-08-04T02:18:00+00:00 | docs/notes/ml-engineering | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809880 |  | 4096 | 00000916ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | c3d7330f-96cf-4127-b902-aa05dcbff296 | 
+#=#=#=# Syncrun finished 2026-08-04T02:18:01Z (last step: 1355 msec , total: 1521 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:18:03Z
+#=#=#=#=# Propagation starts 2026-08-04T02:18:04Z (last step: 1251 msec , total: 1251 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:18:04Z (last step: 2 msec , total: 1253 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:18:09Z
+#=#=#=#=# Propagation starts 2026-08-04T02:18:10Z (last step: 155 msec , total: 155 msec) 
+2026-08-04T02:18:10+00:00 | docs/blog/posts/2.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809880 | 7364ff6f65877f9593eb8eaa64fa6eab | 190 | 00000488ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 123 | 1785804727 | 9ca2f488-ea01-4ae3-8a83-a53b411e5e90 | 
+2026-08-04T02:18:10+00:00 | docs/notes/ml-engineering/.pages | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809879 | aa7f7fb12664a8af9b1d37e3faae7841 | 140 | 00000932ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | b40d96e7-189a-4f1d-9ff4-f0547fd2b221 | 
+2026-08-04T02:18:10+00:00 | docs/notes/.pages | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809879 | f59abd559147d513dc703b666db70cc0 | 169 | 00000628ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 235 | 1785804727 | fc3b6c23-a0b2-4e55-9884-08c0dcaf2f34 | 
+2026-08-04T02:18:10+00:00 | docs/notes/ai/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809879 | e74e8463ad0cdcd1ee21cba3c53814d1 | 789 | 00000497ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 679 | 1785804727 | b1b21024-56d3-4ffb-ad76-09c7e1d63f00 | 
+2026-08-04T02:18:10+00:00 | mkdocs.yml | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809880 | 703eff8e139c119280b6c37d50a4d558 | 2703 | 00000644ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 2606 | 1785804727 | 73082657-1317-4f9c-9d7f-8f43d37a0d95 | 
+2026-08-04T02:18:10+00:00 | docs/blog/posts/.agents | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1785809869 | 6a714bcdabc1d | 0 | 00000910ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 0 | 1785809869 | ce8b8b07-79a9-4e4f-afc3-4ca82c73fb63 | 
+2026-08-04T02:18:10+00:00 | docs/notes/.codex | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1785809869 | 6a714bcdaf1d2 | 0 | 00000911ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 0 | 1785809869 | b679671e-d46a-4711-87f0-7d0b62c3c2a6 | 
+2026-08-04T02:18:10+00:00 | docs/blog/posts/.codex | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1785809869 | 6a714bcdc6844 | 0 | 00000912ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 0 | 1785809869 | a4e5b440-3693-4c5d-a149-d44691999fec | 
+2026-08-04T02:18:10+00:00 | docs/notes/.agents | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1785809869 | 6a714bcdce301 | 0 | 00000915ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 0 | 1785809869 | c869ecbe-78bc-49d6-9bae-be452148aa95 | 
+2026-08-04T02:18:10+00:00 | docs/notes/ai/.agents | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1785809869 | 6a714bcdcbbc8 | 0 | 00000914ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 0 | 1785809869 | eb4ed2d5-0e98-4b9e-ae05-cccb673fe832 | 
+2026-08-04T02:18:10+00:00 | docs/notes/ml-engineering/.codex | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1785809870 | 6a714bce4ad21 | 0 | 00000919ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 0 | 1785809870 | 3c5ef004-2388-4b70-9913-6a6c4a3d590e | 
+2026-08-04T02:18:11+00:00 | docs/notes/ai/.codex | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1785809869 | 6a714bcdc9750 | 0 | 00000913ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 0 | 1785809869 | bd12c224-a017-4ace-aa3d-efef1ffa6e33 | 
+2026-08-04T02:18:11+00:00 | docs/notes/ml-engineering/.agents | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1785809870 | 6a714bce48285 | 0 | 00000918ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 0 | 1785809870 | e5aa1994-1e0f-4b09-8213-a0ade5d32abc | 
+2026-08-04T02:18:11+00:00 | docs/notes/pipeline/.agents | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1785809870 | 6a714bce0134d | 0 | 00000917ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 0 | 1785809870 | 13a8502d-3c01-4e03-a73d-10ff4d888c73 | 
+2026-08-04T02:18:11+00:00 | docs/notes/pipeline/.codex | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1785809870 | 6a714bce8d997 | 0 | 00000924ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 0 | 1785809870 | 91c31950-208c-4c68-9aae-d55f164f57fb | 
+#=#=#=# Syncrun finished 2026-08-04T02:18:11Z (last step: 1315 msec , total: 1471 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:18:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:18:36Z (last step: 911 msec , total: 911 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:18:36Z (last step: 6 msec , total: 918 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:18:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:18:40Z (last step: 149 msec , total: 149 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:18:40Z (last step: 5 msec , total: 154 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:19:19Z
+#=#=#=#=# Propagation starts 2026-08-04T02:19:20Z (last step: 153 msec , total: 153 msec) 
+ | career/ML Engineer Transition.base | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809959 |  | 1748 |  | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 0 | 0 |  | 
+ | career/ML Engineer 전환 대시보드.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809959 |  | 749 |  | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 0 | 0 |  | 
+ | career/MetaScale 상세 설계.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809959 | efe4dc5c87c7388bd099510e610bd03f | 36242 | 00000861ockk2xy7xeee | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 36151 | 1785808497 |  | 
+ | career/milestones/01 데이터 계약.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809959 |  | 421 |  | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 0 | 0 |  | 
+2026-08-04T02:19:20+00:00 | career/milestones | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809960 |  | 4096 | 00000937ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 90cbbd57-b1b4-4ad2-944c-5ab6ce59d1e3 | 
+#=#=#=# Syncrun finished 2026-08-04T02:19:20Z (last step: 325 msec , total: 478 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:19:22Z
+#=#=#=#=# Propagation starts 2026-08-04T02:19:22Z (last step: 414 msec , total: 414 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:19:22Z (last step: 1 msec , total: 416 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:19:29Z
+#=#=#=#=# Propagation starts 2026-08-04T02:19:30Z (last step: 161 msec , total: 161 msec) 
+2026-08-04T02:19:30+00:00 | career/MetaScale 상세 설계.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785809959 | 252cb82553e0e51fd1e5c0f118917304 | 36242 | 00000861ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 36151 | 1785808497 | 0ca044d6-b856-4fcc-9218-3c02a56e165f | 
+2026-08-04T02:19:30+00:00 | career/ML Engineer Transition.base | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809959 | 5eaca9a0a72d58f38ba9a336e1f597ed | 1748 | 00000938ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 8b4866f7-864b-4a38-8006-d1993c72f1f9 | 
+2026-08-04T02:19:30+00:00 | career/milestones/04 일반화 평가.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809960 | 9faadbf2e6f34b50bcca130bd0e7f760 | 397 | 00000945ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | aa002cc1-7047-45e0-8ca5-6e57ad03d862 | 
+2026-08-04T02:19:30+00:00 | career/milestones/05 서빙 MVP.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809960 | 8a8c0f41259482c1663a1bc7df5d9324 | 416 | 00000946ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 44c6b690-917e-4bb3-89f5-dbb0acb4a142 | 
+2026-08-04T02:19:30+00:00 | career/ML Engineer 전환 대시보드.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809959 | 0dd7597f327055b2eab9b36e0e6342af | 749 | 00000941ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 54068f00-334a-4397-a91a-932edef98e91 | 
+2026-08-04T02:19:30+00:00 | career/milestones/03 학습 MVP.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809960 | 78acaaa13eb7cda9337977c3fc7e0b7d | 415 | 00000942ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 57adb557-99f9-4fd8-a4c4-e12e59aaee2f | 
+2026-08-04T02:19:30+00:00 | career/milestones/01 데이터 계약.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809959 | ecf763fe1db118efc049c2203ae74f8b | 421 | 00000943ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 90316051-004b-4e41-9337-fb00441adc3e | 
+2026-08-04T02:19:30+00:00 | career/milestones/02 Feature Pipeline.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809960 | c90163013201a5502f789ce19d489bfc | 408 | 00000944ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | c9b901a0-8033-449f-8c3e-dfaf0e7838a1 | 
+2026-08-04T02:19:30+00:00 | career/milestones/06 운영과 배포.md | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785809961 | 3c47a406bcd745f4eb8eaa3b95e94b0c | 460 | 00000947ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | f7efaf43-58da-4c61-9d99-c8a287cedbfc | 
+#=#=#=# Syncrun finished 2026-08-04T02:19:30Z (last step: 773 msec , total: 935 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:19:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:19:36Z (last step: 421 msec , total: 421 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:19:36Z (last step: 1 msec , total: 422 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:19:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:19:40Z (last step: 147 msec , total: 147 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:19:40Z (last step: 1 msec , total: 148 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:20:29Z
+#=#=#=#=# Propagation starts 2026-08-04T02:20:30Z (last step: 178 msec , total: 178 msec) 
+2026-08-04T02:20:30+00:00 | docs/notes/ai/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810028 | dcef2a4338b266a332718b6f790f6271 | 813 | 00000497ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 789 | 1785809879 | c68e9dd0-352f-4444-b65a-7ef24cd7d88f | 
+2026-08-04T02:20:30+00:00 | docs/notes/pipeline/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810028 | e50c7721b4e8ee81d7320e2644cd44e7 | 803 | 00000553ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 749 | 1785809879 | 455c2588-d676-4d8a-ae47-899759f63ba3 | 
+#=#=#=# Syncrun finished 2026-08-04T02:20:30Z (last step: 328 msec , total: 506 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:20:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:20:36Z (last step: 713 msec , total: 713 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:20:36Z (last step: 1 msec , total: 715 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:20:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:20:40Z (last step: 145 msec , total: 145 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:20:40Z (last step: 1 msec , total: 146 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:21:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:21:40Z (last step: 147 msec , total: 147 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:21:40Z (last step: 1 msec , total: 148 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:22:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:22:40Z (last step: 145 msec , total: 145 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:22:40Z (last step: 0 msec , total: 146 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:23:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:23:40Z (last step: 161 msec , total: 161 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:23:40Z (last step: 1 msec , total: 162 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:24:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:24:40Z (last step: 164 msec , total: 164 msec) 
+2026-08-04T02:24:40+00:00 | .cache/plugins/rss | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810276 |  | 4096 | 00000953ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | c272a383-0bd6-452a-95d2-b9e15be7eda0 | 
+2026-08-04T02:24:40+00:00 | .cache/plugins | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810276 |  | 4096 | 00000951ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | c66a1cfe-3410-42de-8057-322426be4b27 | 
+2026-08-04T02:24:40+00:00 | .cache | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810276 |  | 4096 | 00000950ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 16b82ec0-45e7-48e8-8ed0-ca752bc4bd55 | 
+2026-08-04T02:24:41+00:00 | hooks/__pycache__/obsidian_compat.cpython-312.pyc | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810276 | 77188bf6ad5fcd50c827bf124d2d4c07 | 5274 | 00000954ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 7f45696d-3d6a-4ec6-a25e-138534dfdffb | 
+2026-08-04T02:24:40+00:00 | hooks/__pycache__ | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810276 |  | 4096 | 00000952ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | c4829b6e-36f7-49bb-a8a1-2bf7604ec2c3 | 
+#=#=#=# Syncrun finished 2026-08-04T02:24:41Z (last step: 1238 msec , total: 1403 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:24:49Z
+#=#=#=#=# Propagation starts 2026-08-04T02:24:50Z (last step: 757 msec , total: 757 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:24:50Z (last step: 1 msec , total: 759 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:24:59Z
+#=#=#=#=# Propagation starts 2026-08-04T02:25:00Z (last step: 155 msec , total: 155 msec) 
+2026-08-04T02:25:00+00:00 | docs/notes/ai/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810293 | e98c1d1e2a7442d3f3fcbd0068156279 | 815 | 00000497ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 813 | 1785810028 | 30c717c1-c626-4d82-8520-2b8a91f2670d | 
+2026-08-04T02:25:00+00:00 | docs/notes/pipeline/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810294 | 4cbfbcf64e52e349ae2e80bbf52e8140 | 809 | 00000553ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 803 | 1785810028 | d7586977-ef26-407b-9bfc-c3303975c857 | 
+#=#=#=# Syncrun finished 2026-08-04T02:25:00Z (last step: 325 msec , total: 481 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:25:09Z
+#=#=#=#=# Propagation starts 2026-08-04T02:25:10Z (last step: 744 msec , total: 744 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:25:10Z (last step: 1 msec , total: 746 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:25:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:25:36Z (last step: 141 msec , total: 141 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:25:36Z (last step: 1 msec , total: 142 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:25:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:25:40Z (last step: 164 msec , total: 164 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:25:40Z (last step: 1 msec , total: 165 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:25:59Z
+#=#=#=#=# Propagation starts 2026-08-04T02:26:00Z (last step: 150 msec , total: 150 msec) 
+2026-08-04T02:26:00+00:00 | docs/notes/papers/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810357 | 67f43c7eff70a1c9556a0c4692484cb2 | 659 | 00000550ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 395 | 1785804727 | aafbc2a0-53f0-4115-9b2c-5658e6d65129 | 
+#=#=#=# Syncrun finished 2026-08-04T02:26:00Z (last step: 166 msec , total: 317 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:26:09Z
+#=#=#=#=# Propagation starts 2026-08-04T02:26:10Z (last step: 558 msec , total: 558 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:26:10Z (last step: 1 msec , total: 560 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:26:29Z
+#=#=#=#=# Propagation starts 2026-08-04T02:26:30Z (last step: 156 msec , total: 156 msec) 
+2026-08-04T02:26:30+00:00 | .git/objects/1a/6c4d36a9526cd8dc90879fa42cbcf862f26a04 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | db4273990b6eea06b2a0922ee98031c6 | 133 | 00000964ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 0a6bd668-74fc-4ed1-a26e-dc8a5279ff55 | 
+2026-08-04T02:26:30+00:00 | .git/objects/1a | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000962ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 779b447b-9d53-469d-91dc-12dea681cce2 | 
+2026-08-04T02:26:30+00:00 | .git/objects/41/acda32e5bc0010419df8d1d8c5067139598b5f | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 79c25be9a37cb0ad2fc6c79cc2a11f2d | 332 | 00000965ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 56bff38a-4c43-499c-bdf6-71ebde6a8527 | 
+2026-08-04T02:26:30+00:00 | .git/objects/41 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000963ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | f05d31be-b432-4a36-a86c-bf7789f80a89 | 
+2026-08-04T02:26:30+00:00 | .git/objects/11/cd67db3da4a2366f8ea28a0dc7726d198d21f2 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | c3195389bff6ad120b2f7fb9da381ac0 | 1042 | 00000966ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 9f4e8706-5eac-4f79-853a-c13a33e64b66 | 
+2026-08-04T02:26:30+00:00 | .git/objects/11 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000960ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | cade2f82-bdd3-4b9f-85b7-36e5fa8c7a66 | 
+2026-08-04T02:26:31+00:00 | .git/objects/55/13eb461ba1df20de88ab79cd8a73158994f664 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | da53a351dc1da2dfe81ba495bedc92d4 | 535 | 00000973ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 19838c36-2fcb-45d9-9690-650a925e87e8 | 
+2026-08-04T02:26:31+00:00 | .git/objects/55 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000970ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | de0ff3fd-beb1-4367-8742-78689b6a2410 | 
+2026-08-04T02:26:31+00:00 | .git/objects/54/728acd59ec598143685e15f8e56d779c0add54 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 87727bbf2b1286a791b785f2ffe8c1f7 | 328 | 00000972ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 2c2a1d7b-f06c-42b1-8738-4cd465f2f0f7 | 
+2026-08-04T02:26:31+00:00 | .git/objects/54 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000968ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 8bd4a921-314c-41b6-9538-ab716f008cc6 | 
+2026-08-04T02:26:31+00:00 | .git/objects/45/3ad9a9f56be746bce9b8d183a0662a40340573 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 2cb7511d6d6b92ce06f0854f340b9b42 | 318 | 00000975ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 649a1ace-05b1-4c8e-8006-d05dc714e26e | 
+2026-08-04T02:26:30+00:00 | .git/objects/45 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000967ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 09567eea-112d-4924-ac9d-d1d91fc60f56 | 
+2026-08-04T02:26:31+00:00 | .git/objects/07/d5f7c49b7a26ebc7c7d42f754b6a0adff52a49 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 7810cb36ab70871e85615a094877079c | 565 | 00000971ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 081eb1a7-06d9-45b6-991c-60e374f3df0c | 
+2026-08-04T02:26:30+00:00 | .git/objects/07 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000959ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 7bb4a2aa-7f7f-4dbe-b289-ae5253dcc995 | 
+2026-08-04T02:26:31+00:00 | .git/objects/2b/17141ac773d58d6856eb00cd56cd0a12264359 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | c73a3af46cc4549c2e0032f3beafa019 | 14128 | 00000978ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 2258d964-3c76-4c4b-92c1-b31f20eeed78 | 
+2026-08-04T02:26:30+00:00 | .git/objects/2b | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000961ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 2ed4da9b-4dd1-4117-bad6-739967fadbee | 
+2026-08-04T02:26:32+00:00 | .git/objects/31/096159f0590ed864b050fca9f334f524d43919 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | df15e114a93561e402e13e74cbf6d244 | 98 | 00000979ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 4ac0a96f-d1da-489d-8f3b-4c5bc33cea3e | 
+2026-08-04T02:26:31+00:00 | .git/objects/31 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000969ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 8250907a-483c-4b43-a902-1e04196a6ac8 | 
+2026-08-04T02:26:32+00:00 | .git/objects/75/7e861197487c32d885ba07bf67ecaae06b417f | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | cbb078abbf217a922ce4436e82f63c7e | 173 | 00000983ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 8a8f88a6-ab88-45b1-b2b2-6793b23656a2 | 
+2026-08-04T02:26:32+00:00 | .git/objects/75 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000980ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 88e05268-ee57-4d83-a263-4bddf9bece4f | 
+2026-08-04T02:26:32+00:00 | .git/objects/7f/22b78c9e925475e73cd62a3b398a1f3eba155b | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 78663aa181d624c31a9492e32678610f | 187 | 00000984ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | db2c861b-e920-4c6e-aedb-483c17a38673 | 
+2026-08-04T02:26:32+00:00 | .git/objects/7f | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000981ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | bc027a41-0d3c-4fda-8501-0b42fc3cd363 | 
+2026-08-04T02:26:32+00:00 | .git/objects/80/f7a598845c04d493a4c20e910ff3946da70d3a | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 1ee7dc7c041c032f91b82882638e8098 | 765 | 00000987ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | fb5012ba-f0cf-48a7-b776-db9fd0352078 | 
+2026-08-04T02:26:32+00:00 | .git/objects/80 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000982ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | b49db3b6-fda2-4475-99f4-610028473de7 | 
+2026-08-04T02:26:32+00:00 | .git/objects/72/6bf91f1214729d26c923e55ac7585ae0148be5 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 0babfea12a0d16a156fbf4b63f67747c | 1118 | 00000985ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | cf84d819-b478-4c49-a2b2-de11674dbd0a | 
+2026-08-04T02:26:31+00:00 | .git/objects/72 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000974ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | aafdcd72-b198-4246-b7c8-17fcfa66d955 | 
+2026-08-04T02:26:33+00:00 | .git/objects/73/a2e58bdb1518e0a5110f79adfa755e22abe0f4 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 9c09c718c9c7cb5afe2643b6c2430353 | 1511 | 00000992ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 23b2db18-20da-4b33-b018-cd275d7b4895 | 
+2026-08-04T02:26:31+00:00 | .git/objects/73 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000977ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 97264a3d-b47a-467b-b33a-a043d0904b3b | 
+2026-08-04T02:26:32+00:00 | .git/objects/74/ca8b81e22321609d324c07f4baeed88bddaf46 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | a2a4e2ca4b58992779bfd04f2f5417c5 | 329 | 00000990ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 2b2bba86-a8ca-4eba-8865-ff9d9421ef40 | 
+2026-08-04T02:26:31+00:00 | .git/objects/74 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000976ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | b05f3c40-9be9-4724-8c25-6d956c00d753 | 
+2026-08-04T02:26:33+00:00 | .git/objects/87/042006389bf63876c6dc093c1de53f4db4c42f | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 1a0ce58036f3d444852e8dbedc231bf7 | 139 | 00000993ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 37f0b867-d4f1-46f5-bea4-1c6ebe410d33 | 
+2026-08-04T02:26:32+00:00 | .git/objects/87 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000986ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 364618c9-0fa5-4cc8-8d39-67090d8d56a6 | 
+2026-08-04T02:26:33+00:00 | .git/objects/94/d2e1568eba88291137458245ee851dbff01ea4 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 3d9ad114f884911f3fcc7152046d103a | 1200 | 00000996ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 04f5e64d-988f-4b75-bf18-b0b7fe9007cf | 
+2026-08-04T02:26:32+00:00 | .git/objects/94 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000988ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 5245a0d1-e6e2-4a54-83af-02c190c4ddf2 | 
+2026-08-04T02:26:33+00:00 | .git/objects/b8/4bcecb6fd6af13d13f2b3c4afd521187d86679 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 0696bcd72a3e89d50a2608d950c94a73 | 694 | 00000995ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 3a54c8ec-7edf-4b87-b34d-5ba7b596cd5d | 
+2026-08-04T02:26:32+00:00 | .git/objects/b8 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000989ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | e2bcd40a-5c83-478e-a556-9d9da2d12f3a | 
+2026-08-04T02:26:33+00:00 | .git/objects/ca/9e959d7bb8ce5c91a402823bb1915d8d802eee | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | ec5227b102c9c8cae9fefb5e9a5d652e | 630 | 00001002ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 05a22a90-b509-4734-9d72-d9cbe6cac3e2 | 
+2026-08-04T02:26:33+00:00 | .git/objects/ca | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000997ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | db9e90c5-3b74-41fb-a1de-b97e99ef8515 | 
+2026-08-04T02:26:33+00:00 | .git/objects/c1/944a21f1529cbf9b4449a2e1cfcf1c22d325d2 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 1213d731c0c1a2fcea2b50ae627e0a95 | 335 | 00000999ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 1ab524a5-ec44-4042-a3cd-58b14ac1e677 | 
+2026-08-04T02:26:32+00:00 | .git/objects/c1 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000991ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 6a879e40-5722-4739-b937-630d537b8749 | 
+2026-08-04T02:26:33+00:00 | .git/objects/c5/5e4e1a8eb91433845e36d47f5177ba916dba4a | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | ede970962913f72281e0599ad00809ea | 1498 | 00001001ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | fd53cb8e-fc52-4aaf-9d36-c954d29c2d1d | 
+2026-08-04T02:26:33+00:00 | .git/objects/c5 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000994ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 7256046c-2ca5-4f09-b383-b507fbb2bcf1 | 
+2026-08-04T02:26:33+00:00 | .git/objects/dd/55f12ab0de22c316dcab64e98fc73b4d1a2f19 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 56b55899d4d16327a16858621ffab120 | 563 | 00001005ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 2585a64f-0301-4c20-9c3b-d9a4089e3e4f | 
+2026-08-04T02:26:33+00:00 | .git/objects/dd | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00001000ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | c96042a4-d07d-4ec9-b1d9-8b97b04bd27b | 
+2026-08-04T02:26:34+00:00 | .git/objects/4e/fdd2fa6baa15f8b66d3b6c922de6aac46bb2d3 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 8442ac602e5616f37f203122e782e355 | 919 | 00001011ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 08d8288e-e90f-416f-8cf3-16ed6366e7ac | 
+2026-08-04T02:26:34+00:00 | .git/index | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810384 | 998cfffe10577abc22bcbb3e8ed7110a | 21871 | 00000442ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 20507 | 1785809654 | f699e3dd-b1f8-45f7-ae8a-f7a37e1c15a4 | 
+2026-08-04T02:26:34+00:00 | .git/objects/ec/73b1139719990eb0e7cb06fae0f2a40cb25266 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | c97e5c9998e8fbd27e5fb5982f8c170a | 1531 | 00001012ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 98f6a1b0-731a-4032-bdf3-9a53842dfe3b | 
+2026-08-04T02:26:34+00:00 | .git/objects/d2/d1f33698ee9f8026fba3772048b8518fc140fc | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 008e034a7034953904a376b240ee1738 | 375 | 00001009ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 3c957abc-5705-40a9-b5ce-d1a20a1f1810 | 
+2026-08-04T02:26:33+00:00 | .git/objects/d2 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00000998ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 3b2a52db-43eb-4a58-b9c2-f09e0accac34 | 
+2026-08-04T02:26:34+00:00 | .git/objects/df/d8ade0b769762a151ae570f24bcf6d15f27c74 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 36fc510930446a8e072eaf8620d9120c | 1124 | 00001008ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | e77c1e7e-7581-47ac-b45a-f913d7956074 | 
+2026-08-04T02:26:33+00:00 | .git/objects/df | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00001003ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 417f9a76-1096-463f-b1e4-2a7114760a43 | 
+2026-08-04T02:26:34+00:00 | .git/objects/ec/5380c21fa700b2ab8fdac268b6a57c9627234c | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | d12a0f3218c993a0788bca93cd6de86c | 1731 | 00001010ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 58e7d5c9-16ef-4422-a87b-9de79c95037e | 
+2026-08-04T02:26:33+00:00 | .git/objects/ec | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00001004ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 88b6f934-2e23-48af-bdf5-8788c5130bd8 | 
+2026-08-04T02:26:34+00:00 | .git/objects/fd/316422cb86f8b76893359dbae188eb7e9871d0 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | 3646abe05a8948cdfc3c3798053c44e0 | 1449 | 00001014ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 86254f83-5660-4829-a6df-52ebe293ce88 | 
+2026-08-04T02:26:34+00:00 | .git/objects/fd | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00001007ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 18f8d8e4-e4fd-461f-b51b-f83db8b1d1a6 | 
+2026-08-04T02:26:35+00:00 | .git/objects/f6/61d13a3c6c6c6cc4650fe133280a4f0068ffd0 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 | e36f6b34c417d7b6f35de79fdbed6f24 | 1328 | 00001016ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | f2843603-6b0a-4b93-a04e-db47ec04f6d2 | 
+2026-08-04T02:26:34+00:00 | .git/objects/f6 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810384 |  | 4096 | 00001006ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 085b81d8-8344-4303-956b-788d31b45075 | 
+2026-08-04T02:26:40+00:00 | .git/objects/pack/pack-173258ef119fb1448a5efe2d010b1d3bb58f0702.pack | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810384 | ca222da50138d9a4277ec61a9b6bd79d | 10765382 | 00000474ockk2xy7xeee | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 201 | 10765382 | 1785809597 | 43fec015-171a-41fa-8da1-78a6e62d2c87 | 
+#=#=#=# Syncrun finished 2026-08-04T02:26:40Z (last step: 9983 msec , total: 10139 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:26:40Z
+#=#=#=#=# Propagation starts 2026-08-04T02:26:42Z (last step: 2613 msec , total: 2613 msec) 
+2026-08-04T02:26:42+00:00 | .git/refs/heads/feat/ml-engineer-portfolio | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810396 | a7f3098f7800245e21b456d0da97fd9c | 41 | 00000898ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 41 | 1785809617 | 273afd63-7a6b-4522-9fd4-b243fbe64180 | 
+2026-08-04T02:26:42+00:00 | .git/COMMIT_EDITMSG | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810396 | 07869ae89d50036b3ad633fffff37a1b | 46 | 00000782ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 61 | 1785809610 | 72b1fd1b-85c0-443b-a29c-e0770c141335 | 
+2026-08-04T02:26:42+00:00 | .git/logs/HEAD | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810396 | 13968edc0329b69f598b60863f322f7f | 1595 | 00000422ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 1422 | 1785809617 | 429904fc-f2a6-462a-8959-7c05c0b29532 | 
+2026-08-04T02:26:43+00:00 | .git/objects/44/0449885e0e92d4f0678f35c73020321c4e6b5c | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 | 3044b047f5883e31d42e681c51f7ff8b | 380 | 00001024ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 3c4ca566-3049-4051-93c2-bc0885a4eae1 | 
+2026-08-04T02:26:42+00:00 | .git/objects/44 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 |  | 4096 | 00001023ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 2466c92a-4ad0-44ab-aa5e-85ca1fef0e68 | 
+2026-08-04T02:26:43+00:00 | .git/logs/refs/heads/feat/ml-engineer-portfolio | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810396 | e7028baa154f55082331c60488de9765 | 318 | 00000889ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 145 | 1785809617 | 36052ef6-fe89-4edb-8c72-0811e376f697 | 
+2026-08-04T02:26:43+00:00 | .git/objects/7e/ea5e27fbba37361d68892d92d0859614ac2f5f | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 | 57c574ac0a379c2bc1cda6d3ed2f580b | 239 | 00001032ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 1cdf3319-8d10-400d-9ff7-c11d1bb534f5 | 
+2026-08-04T02:26:43+00:00 | .git/objects/14/e2f334416d1293ddf57ab34f89ace690a25664 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 | 7558881b8f6b6a857c81789127c1b2b3 | 437 | 00001029ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 846fa485-2f6e-4cea-83e7-7ddf98bff168 | 
+2026-08-04T02:26:42+00:00 | .git/objects/14 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 |  | 4096 | 00001021ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 4d24ff35-aecb-405f-9473-e9b2c0dbc3c0 | 
+2026-08-04T02:26:43+00:00 | .git/objects/7e/fc62a861138020d47a9f4ae3819d33211c62f3 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 | bc9daa78477c0b98d064704818f8d967 | 274 | 00001034ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | a102fd59-0f79-4b4d-bcad-d7f113716246 | 
+2026-08-04T02:26:43+00:00 | .git/objects/7e | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 |  | 4096 | 00001028ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 948c0e89-7b2a-42e1-9c30-432abaed56cd | 
+2026-08-04T02:26:44+00:00 | .git/objects/97/f49de4e08f0e357309fd0f94bbca22d8421c27 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 | 3559ac611f24625eae0d9cbc4adac5ca | 205 | 00001038ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 1010e289-e1d8-48c3-b919-7d278bc9c2cc | 
+2026-08-04T02:26:43+00:00 | .git/objects/97 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 |  | 4096 | 00001033ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 8a4d23c3-e9f9-4b68-89a3-42987e44ce0d | 
+2026-08-04T02:26:44+00:00 | .git/objects/96/515c6cfdc5def1fa8879e366cf062b1d703d58 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 | 1ea456f7265ca9c9c1630d775327b3bd | 230 | 00001035ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 3ebae4bb-6949-4fff-a76c-7480d985f3b1 | 
+2026-08-04T02:26:43+00:00 | .git/objects/96 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 |  | 4096 | 00001031ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | fbb6a71c-f01d-4ed0-bfa5-4817e8c76143 | 
+2026-08-04T02:26:44+00:00 | .git/objects/5b/c82f34efb0bea04702487837bc1a2f8f095b37 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 | db11871aaa2befbc717e8bee3508b50f | 156 | 00001037ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 0607cf0f-2c42-43a3-bb87-a51f033bc3f8 | 
+2026-08-04T02:26:43+00:00 | .git/objects/5b | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 |  | 4096 | 00001030ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 3d9e61a4-8fab-410b-bee3-5f1835fffe1d | 
+2026-08-04T02:26:44+00:00 | .git/objects/b4/8e2776c341943f23cf433fd39af026bf03c8b4 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 | 0416e237c6fa526a5941f79e942b1efb | 115 | 00001042ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | efec1d26-bcde-4888-a139-6e55e102c81e | 
+2026-08-04T02:26:44+00:00 | .git/objects/b4 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 |  | 4096 | 00001036ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 42c3a857-5172-4420-95e1-81ab5079d80d | 
+2026-08-04T02:26:44+00:00 | .git/objects/e9/2dafbb476bc0ef0417628f4055138ff5e0b646 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 | 9175a4bf49dc96d4a503ef025e30a3b3 | 84 | 00001043ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | bd300961-e793-48c4-9517-46cc900a0d65 | 
+2026-08-04T02:26:44+00:00 | .git/objects/e9 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 |  | 4096 | 00001040ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 5f28e094-6469-4342-ab80-24bf1deeb4d9 | 
+2026-08-04T02:26:44+00:00 | .git/objects/76/c17e162795de5ba76b0e54b1754697988262ae | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 | 6b40d9b3ff600617392a9e782ccf6529 | 84 | 00001044ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | a823dd99-ef32-4e54-bddd-5ee78413b772 | 
+2026-08-04T02:26:43+00:00 | .git/objects/76 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 |  | 4096 | 00001025ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 0ea297e5-733b-49ee-8b16-1b41bbd1812f | 
+2026-08-04T02:26:44+00:00 | .git/objects/bf/d959df4d17e8da6e159b5aa0fca12666e14db7 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 | f831df759ab993c77955f9d1360a970a | 176 | 00001045ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 09d36319-7539-4c1b-a8d9-f2d03ce9b736 | 
+2026-08-04T02:26:44+00:00 | .git/objects/bf | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 |  | 4096 | 00001039ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | d453b041-4834-4385-b539-4fa5c01f987d | 
+2026-08-04T02:26:45+00:00 | .git/objects/eb/3ed0f74d77b52288d329544259a7ba6a1a82a4 | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 | d2a3a726c158e025cdb94e9111cc5e07 | 286 | 00001047ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | d4bdd9b5-6f7e-4ae9-82d1-5023048e0cc4 | 
+2026-08-04T02:26:44+00:00 | .git/objects/eb | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1785810396 |  | 4096 | 00001041ockk2xy7xeee | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 887d2960-cb2a-40cc-ae6f-7738c4c3b43b | 
+2026-08-04T02:26:46+00:00 | .git/index | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810396 | 3c508ad9b66bf64a349a8ec77fabde71 | 22153 | 00000442ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 21871 | 1785810384 | 34fbcb26-1851-4f92-a774-717f78feb6bd | 
+2026-08-04T02:26:52+00:00 | .git/objects/pack/pack-173258ef119fb1448a5efe2d010b1d3bb58f0702.pack | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810396 | c2f7a78eb50a453b79bb3c703c634897 | 10765382 | 00000474ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 10765382 | 1785809597 | ce5f02c2-a8da-4509-a715-1ccb9575a0a4 | 
+#=#=#=# Syncrun finished 2026-08-04T02:26:52Z (last step: 9673 msec , total: 12286 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:26:52Z
+#=#=#=#=# Propagation starts 2026-08-04T02:26:55Z (last step: 3367 msec , total: 3367 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:26:55Z (last step: 2 msec , total: 3370 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:27:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:27:36Z (last step: 312 msec , total: 312 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:27:36Z (last step: 1 msec , total: 313 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:27:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:27:40Z (last step: 343 msec , total: 343 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:27:40Z (last step: 1 msec , total: 344 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:28:11Z
+#=#=#=#=# Propagation starts 2026-08-04T02:28:11Z (last step: 346 msec , total: 346 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:28:11Z (last step: 1 msec , total: 347 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:28:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:28:40Z (last step: 363 msec , total: 363 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:28:40Z (last step: 1 msec , total: 364 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:29:14Z
+#=#=#=#=# Propagation starts 2026-08-04T02:29:14Z (last step: 357 msec , total: 357 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:29:14Z (last step: 1 msec , total: 358 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:29:29Z
+#=#=#=#=# Propagation starts 2026-08-04T02:29:30Z (last step: 335 msec , total: 335 msec) 
+2026-08-04T02:29:30+00:00 | .obsidian/plugins/obsidian-icon-folder/data.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810561 | 7eb43964ad4be38dc1f6b3dea173049d | 789 | 00000714ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 789 | 1785808292 | 33726fd5-1273-4245-9731-058fdfd07cdc | 
+2026-08-04T02:29:30+00:00 | .obsidian/plugins/obsidian-minimal-settings/data.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810561 | 032fbe65f4866ee85e804d41ca02eb78 | 884 | 00000726ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 884 | 1785808293 | 5cd85e0a-372d-4663-91cc-64feb9e5e683 | 
+2026-08-04T02:29:30+00:00 | .obsidian/appearance.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810563 | 816a465e151473c609ff081092afeb4e | 53 | 00000648ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 53 | 1785808293 | d4312a47-bbcf-499d-964a-0036a7cd891d | 
+2026-08-04T02:29:30+00:00 | .obsidian/app.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810562 | 9dff96c761a1679b0fa71011f9a50731 | 249 | 00000646ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 249 | 1785808293 | fd80304b-6915-461e-83e2-63c815f5a172 | 
+2026-08-04T02:29:30+00:00 | .obsidian/core-plugins.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810562 | 8ba8ac7990c2ddbf81a744bceb590913 | 696 | 00000647ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 696 | 1785808293 | 9d92e655-3c7c-40c2-a289-b7fd48333388 | 
+2026-08-04T02:29:30+00:00 | .obsidian/community-plugins.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810564 | 80a358ad4e68c7623d769a29a27aaf80 | 421 | 00000752ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 421 | 1785808294 | b8ec4e06-6036-4342-87ab-3695c237e12d | 
+2026-08-04T02:29:30+00:00 | .obsidian/plugins/table-editor-obsidian/data.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810561 | e3c1bcbc91747ec508fb758632b7ee52 | 94 | 00000747ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 94 | 1785808293 | cec156d3-5c16-4442-879e-d558035d0d4e | 
+2026-08-04T02:29:30+00:00 | .obsidian/types.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810563 | 10ad13817018ed68b6775514a3ea85b5 | 1021 | 00000761ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 1021 | 1785808294 | f0fb66e0-8e61-4a25-a56f-d9409554a0f2 | 
+2026-08-04T02:29:31+00:00 | .obsidian/plugins/editing-toolbar/data.json | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810561 | 59a90890e7701a9559cf229cd6deba8a | 31564 | 00000690ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 31564 | 1785808293 | 3230eab4-632a-4a21-8086-4758b30aa4b7 | 
+#=#=#=# Syncrun finished 2026-08-04T02:29:31Z (last step: 1161 msec , total: 1496 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:29:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:29:38Z (last step: 1993 msec , total: 1993 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:29:38Z (last step: 1 msec , total: 1995 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:30:16Z
+#=#=#=#=# Propagation starts 2026-08-04T02:30:16Z (last step: 344 msec , total: 344 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:30:16Z (last step: 1 msec , total: 345 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:30:29Z
+#=#=#=#=# Propagation starts 2026-08-04T02:30:30Z (last step: 328 msec , total: 328 msec) 
+2026-08-04T02:30:30+00:00 | docs/notes/ml-engineering/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810621 | 4cdc4caca63facbaff8ad075e757e44c | 1999 | 00000920ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 2147 | 1785809878 | 61a09a0e-7bcd-442b-abf5-54ba0d22e704 | 
+#=#=#=# Syncrun finished 2026-08-04T02:30:30Z (last step: 354 msec , total: 682 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:30:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:30:37Z (last step: 1282 msec , total: 1282 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:30:37Z (last step: 1 msec , total: 1284 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:30:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:30:40Z (last step: 329 msec , total: 329 msec) 
+2026-08-04T02:30:40+00:00 | career/ML Engineer Transition.base | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810633 | bd883e69804f10627e5ba6fef56afedc | 1692 | 00000938ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 1748 | 1785809959 | 7709eb55-9f59-4ff7-83fd-ec188144cf64 | 
+#=#=#=# Syncrun finished 2026-08-04T02:30:40Z (last step: 337 msec , total: 666 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:30:59Z
+#=#=#=#=# Propagation starts 2026-08-04T02:31:00Z (last step: 643 msec , total: 643 msec) 
+2026-08-04T02:31:00+00:00 | docs/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810652 | 97efe50a2a846d0b5ebe67c0ff788cc1 | 2235 | 00000639ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 2029 | 1785809781 | ca4bb5b9-2342-4262-ab10-9c43d860663a | 
+#=#=#=# Syncrun finished 2026-08-04T02:31:00Z (last step: 334 msec , total: 977 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:31:20Z
+#=#=#=#=# Propagation starts 2026-08-04T02:31:21Z (last step: 656 msec , total: 656 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:31:21Z (last step: 1 msec , total: 657 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:31:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:31:36Z (last step: 681 msec , total: 681 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:31:36Z (last step: 1 msec , total: 682 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:32:20Z
+#=#=#=#=# Propagation starts 2026-08-04T02:32:20Z (last step: 367 msec , total: 367 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:32:20Z (last step: 1 msec , total: 368 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:32:39Z
+#=#=#=#=# Propagation starts 2026-08-04T02:32:40Z (last step: 340 msec , total: 340 msec) 
+2026-08-04T02:32:40+00:00 | docs/notes/index.md | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1785810754 | 65a81943710a2672bec8359b7c4a686f | 1217 | 00000627ockk2xy7xeee | OCC::SyncFileItem::Success |  | 204 | 1423 | 1785809877 | f3065948-1f8c-4ef2-87ee-df43600a7442 | 
+#=#=#=# Syncrun finished 2026-08-04T02:32:40Z (last step: 331 msec , total: 671 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:33:22Z
+#=#=#=#=# Propagation starts 2026-08-04T02:33:23Z (last step: 945 msec , total: 945 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:33:23Z (last step: 1 msec , total: 946 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:33:36Z
+#=#=#=#=# Propagation starts 2026-08-04T02:33:36Z (last step: 316 msec , total: 316 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:33:36Z (last step: 1 msec , total: 318 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:34:23Z
+#=#=#=#=# Propagation starts 2026-08-04T02:34:23Z (last step: 327 msec , total: 327 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:34:23Z (last step: 1 msec , total: 328 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:35:28Z
+#=#=#=#=# Propagation starts 2026-08-04T02:35:29Z (last step: 345 msec , total: 345 msec) 
+#=#=#=# Syncrun finished 2026-08-04T02:35:29Z (last step: 1 msec , total: 347 msec) 
+#=#=#=# Syncrun started 2026-08-04T02:36:09Z

@@ -37,4 +37,4 @@ Google의 MLOps 가이드는 실제 ML 시스템에서 모델 코드가 차지�
 - [Google for Developers — ML pipelines](https://developers.google.com/machine-learning/managing-ml-projects/pipelines)
 - [AWS — ML Solution Monitoring, Maintenance, and Security](https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html)
 - [Hyperconnect — Machine Learning Software Engineer](https://career.hyperconnect.com/job/a8d9b01f-f11c-44f3-8e8b-a4c91e1331c8/)
-- [당근 — 머신러닝을 위한 모든 프로세스를 경험할 수 있어요](https://about.daangn.com/jobs/article/recruit24-interview-aio/)
+
