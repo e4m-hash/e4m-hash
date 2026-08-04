@@ -2,6 +2,7 @@
 type: project
 status: completed
 featured: true
+position: supporting
 focus:
   - data-pipeline
   - reproducibility

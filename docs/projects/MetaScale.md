@@ -2,17 +2,17 @@
 type: project
 status: planned
 featured: true
+position: flagship
 focus:
-  - data-pipeline
-  - modeling
-  - serving
-  - mlops
+  - scale
+  - reliability
+  - production-readiness
 evidence:
   - design
 updated: 2026-08-04
 ---
 
-# MetaScale
+# MetaScale: Reproducible ML Platform
 
 > [!warning] 구현 예정
 > 현재 확인 가능한 산출물은 시스템 설계와 12주 완료 조건입니다. 코드, 성능, 처리량은 구현 후 측정값으로 교체합니다.
@@ -20,7 +20,19 @@ updated: 2026-08-04
 Shotgun metagenomics 데이터를 대상으로 데이터 검증부터 feature 생성, 학습,
 서빙, 모니터링까지 연결하는 ML Engineering 프로젝트입니다.
 
-## 왜 이 문제를 선택했는가
+## 프로젝트 포지션
+
+> 대규모 원시 데이터를 병렬 처리하고, 고차원 feature에 대한 누수 없는 학습·평가
+> pipeline을 구축하며, 데이터·모델 버전 관리부터 비동기 추론과 모니터링까지
+> 연결하는 ML Engineer.
+
+| 축 | 완료 기준 |
+| --- | --- |
+| Scale | sample 병렬 처리, dense/sparse 비교, runtime·memory benchmark |
+| Reliability | schema validation, cohort split, reproducible artifact, contract test |
+| Production Readiness | online/batch inference, metrics, drift simulation, CI release |
+
+## 문제 선택
 
 현재 경험은 bioinformatics workflow와 모델 실험 양쪽에 나뉘어 있습니다.
 MetaScale은 두 경험 사이의 경계를 직접 구현하기 위한 프로젝트입니다.
@@ -86,3 +98,8 @@ flowchart LR
 
 복잡한 플랫폼을 한 번에 만드는 대신, 각 단계가 작은 데이터에서 end-to-end로
 동작하는지를 먼저 확인합니다.
+
+## Domain
+
+입력 데이터와 reference DB, profiling tool에 대한 상세 기록은
+[Domain / Bioinformatics](../domain/bioinformatics/index.md)에서 분리해 관리합니다.

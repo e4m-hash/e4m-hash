@@ -13,7 +13,7 @@ updated: 2026-08-04
 
 - 목표 직무: 국내 주니어 ML Engineer
 - 대표 구현 계획: [[MetaScale]]
-- 보존할 도메인 기반: bioinformatics, microbiome statistics
+- 도메인 기반: [Bioinformatics](../docs/domain/bioinformatics/index.md) — `docs/domain/bioinformatics/`에서 분리 관리
 - 공개 조건: code, demo, benchmark 중 실제로 확인한 항목만 project frontmatter에 추가
 
 ## 상태 변경 규칙

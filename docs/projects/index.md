@@ -1,14 +1,15 @@
 # 프로젝트
 
-모델 하나보다 데이터가 들어와 결과가 나갈 때까지의 경계를 어떻게 설계했는지에
-초점을 맞춰 정리합니다. 완료된 결과와 구현 예정 항목을 구분해 표시합니다.
+MetaScale의 세 평가 축에 따라 프로젝트를 정리합니다. 완료된 구현과 계획을 구분하고,
+성능·처리량·배포 상태는 실제 측정값이 있을 때만 적습니다.
 
-| 프로젝트 | 상태 | 보여 주는 역량 | 근거 |
-| --- | --- | --- | --- |
-| [[MetaScale]] | 구현 예정 | 데이터 계약, 학습 pipeline, 서빙, 모니터링 | 설계·12주 완료 조건 |
-| [[FunOMIC2 Nextflow Pipeline]] | 완료 | 대용량 파일 workflow, 컨테이너, 재시작 | 코드 저장소 |
-| [[KT Aivle Big Project]] | 완료 | 데이터 수집, tabular ML, 애플리케이션 연동 | 코드 저장소·과제 정의서 |
-| [[KLAS Macro]] | 완료 | 반복 업무 자동화, 데스크톱 GUI | 코드 저장소 |
+| 프로젝트 | 상태 | Scale | Reliability | Production Readiness |
+| --- | --- | --- | --- | --- |
+| [[MetaScale]] | 구현 예정 | raw data·high-dimensional feature | contract·cohort evaluation | serving·monitoring·CI |
+| [[FunOMIC2 Nextflow Pipeline]] | 완료 | sample-parallel workflow | container·resume | 운영 배포는 범위 밖 |
+| [[KT Aivle Big Project]] | 완료 | tabular data pipeline | 모델 후보 비교 | Spring·React 연동 |
+| [[KLAS Macro]] | 완료 | 해당 없음 | 외부 DOM 경계 처리 | 사용자 실행 도구 |
 
-> [!note] 표기 원칙
-> 성능 수치, 처리량, 배포 상태는 실제로 측정하거나 확인한 경우에만 기록합니다.
+> [!note] 증거 기준
+> 설계는 의도, 코드는 구현, demo는 동작, benchmark는 측정 결과를 뜻합니다.
+> 서로를 대신하지 않도록 project frontmatter의 `evidence`에 구분해 기록합니다.

@@ -1,35 +1,32 @@
 # ML Engineering
 
-좋은 offline metric 하나를 만드는 것보다, 데이터가 바뀌어도 다시 학습하고
-검증하며 안전하게 내보낼 수 있는 시스템을 만드는 데 초점을 둡니다.
+[[MetaScale]]을 실제로 완성하기 위해 필요한 구현 기준을 정리합니다. 도구 목록보다
+데이터가 들어와 예측이 나가고, 다시 관측되는 전체 경로를 우선합니다.
 
-Google의 MLOps 가이드는 실제 ML 시스템에서 모델 코드가 차지하는 부분보다
-데이터 검증, 자동화, 테스트, metadata, serving, monitoring 같은 주변 요소가
-더 크다고 설명합니다. 이 구분을 현재 학습 순서의 기준으로 사용합니다.
+## MetaScale 기준
 
-## 생명주기
+| 축 | 구현 질문 | 노트 |
+| --- | --- | --- |
+| Scale | 입력 크기와 feature 수가 늘어날 때 어디가 병목인가 | [[데이터와 학습 파이프라인]] |
+| Reliability | schema, split, artifact가 서로 맞는지 어떻게 확인하는가 | [[평가와 신뢰성]] |
+| Production Readiness | 긴 job과 짧은 prediction을 어떻게 나누고 관측하는가 | [[서빙과 운영]] |
 
-1. 문제와 성공 기준을 먼저 정의한다.
-2. 입력 schema와 데이터 lineage를 기록한다.
-3. 재실행 가능한 pipeline에서 feature를 만든다.
-4. 누수를 통제한 split으로 baseline부터 평가한다.
-5. preprocessing과 model을 versioned artifact로 묶는다.
-6. batch 또는 online 경계에 맞춰 서빙한다.
-7. 데이터 품질, latency, 오류, drift를 관측한다.
+## 구현 순서
 
-## 노트
+1. manifest와 feature schema를 정의한다.
+2. 작은 fixture로 end-to-end pipeline을 먼저 통과시킨다.
+3. leakage-safe baseline과 cohort hold-out을 실행한다.
+4. preprocessing과 model을 versioned bundle로 만든다.
+5. profile API와 raw-data async job을 분리한다.
+6. latency, 실패율, schema mismatch, drift를 기록한다.
 
-- [[데이터와 학습 파이프라인]]
-- [[평가와 신뢰성]]
-- [[서빙과 운영]]
+## 현재 증거
 
-## 이 저장소의 증거
-
-| 생명주기 | 현재 프로젝트 | 상태 |
+| 생명주기 | 프로젝트 | 상태 |
 | --- | --- | --- |
 | 원시 데이터 workflow | [[FunOMIC2 Nextflow Pipeline]] | 완료 |
-| 모델과 서비스 연결 | [[KT Aivle Big Project]] | 완료 |
-| end-to-end ML system | [[MetaScale]] | 구현 예정 |
+| 모델과 애플리케이션 연결 | [[KT Aivle Big Project]] | 완료 |
+| end-to-end ML platform | [[MetaScale]] | 구현 예정 |
 
 ## 기준 자료
 
@@ -37,4 +34,3 @@ Google의 MLOps 가이드는 실제 ML 시스템에서 모델 코드가 차지�
 - [Google for Developers — ML pipelines](https://developers.google.com/machine-learning/managing-ml-projects/pipelines)
 - [AWS — ML Solution Monitoring, Maintenance, and Security](https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html)
 - [Hyperconnect — Machine Learning Software Engineer](https://career.hyperconnect.com/job/a8d9b01f-f11c-44f3-8e8b-a4c91e1331c8/)
-

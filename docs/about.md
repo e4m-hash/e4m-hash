@@ -2,46 +2,51 @@
 
 안녕하세요. 백희선입니다.
 
-현재 BDLS Lab에서 metagenomics와 microbiome 데이터를 다루고 있습니다.
-분석 도구를 사용하는 것에서 한 단계 더 나아가, 데이터 처리와 모델 학습을
-재현 가능한 소프트웨어 시스템으로 만드는 ML Engineer를 목표로 하고 있습니다.
+BDLS Lab에서 metagenomics와 microbiome 데이터를 다루고 있습니다. 현재 목표는
+분석을 수행하는 데서 끝나지 않고, 큰 원시 데이터가 들어와 검증된 예측과 운영 지표로
+나가기까지의 전체 경로를 설계하고 구현하는 ML Engineer입니다.
 
-## 지금 하는 일
+## Position
 
-- 연구실: [BDLS Lab](https://bdsl.jbnu.ac.kr/blog/)
-- 도메인: shotgun metagenomics, microbiome analysis
-- 워크플로: Nextflow, nf-core, Docker/Podman, Apptainer
-- 모델링: scikit-learn, XGBoost/CatBoost, PyTorch
-- 자격: KT AI Associate
+[[MetaScale]]은 이 전환을 검증하기 위한 대표 프로젝트입니다.
 
-## 전환 과정에서 가져가는 강점
+### Scale
 
-### 도메인 데이터를 끝까지 다뤄 본 경험
+- FASTQ와 고차원·희소 feature 처리
+- sample 단위 병렬 workflow와 resource 측정
+- Parquet 기반 산출물과 재실행 가능한 pipeline
 
-FASTQ와 메타데이터를 입력으로 받아 QC, taxonomic/functional profiling,
-통계 분석까지 이어지는 흐름을 다뤘습니다. 데이터 생성 과정과 reference DB가
-결과에 미치는 영향을 알고 있다는 점을 ML 데이터 검증과 lineage 관리로 확장하고 있습니다.
+### Reliability
 
-### 재현 가능한 파이프라인
+- manifest와 feature schema validation
+- subject·cohort 단위 split과 fold 내부 preprocessing
+- code, data, reference DB, model version 분리
+- 작은 입력으로 전체 경로를 확인하는 smoke test
 
-Nextflow DSL2와 컨테이너를 사용해 분석 단계를 모듈로 나누고, 같은 입력과 설정으로
-다시 실행할 수 있는 구조를 만들었습니다. [[FunOMIC2 Nextflow Pipeline]]에서 이 과정을 정리했습니다.
+### Production Readiness
 
-### 모델을 서비스와 연결한 경험
+- preprocessing과 model을 하나의 artifact bundle로 관리
+- 짧은 profile prediction과 긴 raw-data job의 API 경계 분리
+- latency, 실패율, schema mismatch, drift 관측
+- CI와 재현 명령으로 release 검증
 
-KT Aivle 팀 프로젝트에서 공공임대주택 데이터 수집, tabular 모델 비교,
-Spring·React 서비스 연동을 경험했습니다. 현재는 [[MetaScale]]을 통해
-데이터 계약, 실험 추적, 모델 registry, 서빙 contract와 모니터링까지 범위를 넓히고 있습니다.
+## 현재 근거
+
+| 경험 | 확인 가능한 내용 | MetaScale에서 확장할 부분 |
+| --- | --- | --- |
+| [[FunOMIC2 Nextflow Pipeline]] | Nextflow DSL2, container, resume | versioned feature pipeline과 benchmark |
+| [[KT Aivle Big Project]] | 데이터 수집, tabular ML, 웹 연동 | artifact contract와 운영 metric |
+| Bioinformatics 연구 | 원시 sequence와 reference DB 이해 | 데이터 계약과 cohort generalization |
 
 ## 기술
 
-| 구분 | 사용 경험 | 확장 중 |
+| 영역 | 사용 경험 | MetaScale 적용 계획 |
 | --- | --- | --- |
-| Language | Python, R, C++ | Java/Spring 코드 이해 |
+| Language | Python, R, C++ | Python package와 typed schema |
 | Data/ML | pandas, NumPy, SciPy, scikit-learn, XGBoost, CatBoost, PyTorch | Polars, PyArrow, MLflow |
-| Workflow | Nextflow, nf-core, Selenium | 학습 pipeline, data/model validation |
-| Runtime | Docker, Podman, Apptainer, Linux | Kubernetes, cloud deployment |
-| Domain | metagenomics, microbiome statistics | cohort-aware ML evaluation |
+| Workflow | Nextflow, nf-core, Selenium | data/training pipeline과 contract test |
+| Runtime | Docker, Podman, Apptainer, Linux | Compose, Kubernetes, CI |
+| Domain | metagenomics, microbiome statistics | cohort-aware evaluation과 drift |
 
 ## 이력
 

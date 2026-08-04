@@ -2,6 +2,7 @@
 type: project
 status: completed
 featured: false
+position: supporting
 focus:
   - automation
   - application

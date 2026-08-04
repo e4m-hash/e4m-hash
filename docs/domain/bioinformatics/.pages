@@ -1,6 +1,8 @@
 title: 생물정보
 nav:
   - index.md
+  - data
   - omics
   - tools
+  - papers
   - ...

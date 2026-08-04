@@ -6,8 +6,9 @@
 
 - 웹 스크래핑 — Selenium, HTML 파싱
 - API 수집 — RESTful, JSON 파싱
-- NCBI (datasets) - NCBI raw sequence
 - 데이터 정형화 — 수집 결과를 분석 가능한 형태로 가공
+
+생물학 데이터 소스는 [Domain / Bioinformatics](../../domain/bioinformatics/data/index.md)에서 관리합니다.
 
 ## 정리 예정 / 진행 중
 

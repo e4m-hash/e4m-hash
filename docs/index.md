@@ -1,49 +1,52 @@
 # ML Engineer Portfolio
 
-바이오인포매틱스에서 출발해, 원시 데이터 처리부터 모델 평가와 운영까지
-연결하는 ML Engineer로 전환하고 있습니다.
+대규모 원시 데이터를 재현 가능한 feature로 만들고, 누수를 통제해 모델을 평가한 뒤,
+versioned artifact와 API로 운영 환경까지 연결하는 ML Engineer를 목표로 합니다.
 
-도메인 데이터의 특성을 이해하는 데서 멈추지 않고 같은 입력을 다시 처리할 수 있는
-파이프라인, 누수를 통제한 평가, 버전이 맞는 모델 산출물을 만드는 데 관심이 있습니다.
+이 포트폴리오는 [[MetaScale]]을 중심으로 세 가지를 증명하는 과정입니다.
 
-## 대표 프로젝트
+| 기준 | 질문 | 현재 근거 |
+| --- | --- | --- |
+| Scale | 큰 파일과 고차원 feature를 제한된 자원에서 처리할 수 있는가 | [[FunOMIC2 Nextflow Pipeline]], Nextflow, container |
+| Reliability | 데이터 계약, split, 재현성과 실패 복구를 설명할 수 있는가 | workflow 재시작, cohort-aware 평가 설계 |
+| Production Readiness | 학습 결과를 서빙하고 관측할 수 있는가 | [[KT Aivle Big Project]], MetaScale 구현 계획 |
+
+## Flagship Project
 
 ### [[MetaScale]] — 구현 예정
 
-Shotgun metagenomics 데이터를 대상으로 데이터 검증, 학습, 서빙, 모니터링을
-하나의 재현 가능한 시스템으로 연결하는 12주 ML Engineering 프로젝트입니다.
+Shotgun metagenomics를 실험용 데이터셋이 아니라 운영해야 할 ML workload로 다룹니다.
 
-### [[FunOMIC2 Nextflow Pipeline]] — 완료
+```text
+FASTQ / metadata
+→ validation and feature pipeline
+→ leakage-safe training and evaluation
+→ versioned model bundle
+→ online / batch inference
+→ monitoring
+```
 
-Shell/R 기반 분석 절차를 Nextflow DSL2 워크플로로 옮기며 모듈화,
-컨테이너 실행, 실패 지점 재시작을 다뤘습니다.
+현재 공개된 것은 시스템 설계와 완료 조건입니다. 코드, 처리량, 모델 성능,
+latency는 구현하고 측정한 뒤에만 결과로 기록합니다.
 
-### [[KT Aivle Big Project]] — 완료
+→ [MetaScale 설계 보기](projects/MetaScale.md)
 
-공공임대주택 데이터를 수집하고 CatBoost·XGBoost 계열 모델을 비교해
-웹 서비스와 연결한 팀 프로젝트입니다.
+## Supporting Evidence
+
+- [[FunOMIC2 Nextflow Pipeline]] — 원시 데이터 workflow, container, 실패 지점 재시작
+- [[KT Aivle Big Project]] — 데이터 수집, tabular ML, 애플리케이션 연동
+- [[KLAS Macro]] — 반복 업무 자동화와 사용자 도구 개발
 
 → [프로젝트 전체 보기](projects/index.md)
 
-## ML Engineering 역량 지도
+## Knowledge Base
 
-| 영역        | 현재 근거                            | 다음 산출물                                  |
-| --------- | -------------------------------- | --------------------------------------- |
-| 데이터 파이프라인 | FunOMIC2, Nextflow, 컨테이너         | MetaScale 데이터 계약·smoke pipeline         |
-| 모델링·평가    | KT Aivle, 생물통계, microbiome ML 논문 | cohort-aware baseline·model card        |
-| 서빙        | Spring/React 연동 경험               | versioned model bundle·FastAPI contract |
-| 운영        | Docker/Podman, Kubernetes 학습     | CI/CD·metrics·drift dashboard           |
+- [ML Engineering](notes/ml-engineering/index.md) — pipeline, evaluation, serving, monitoring
+- [AI](notes/ai/index.md) — 모델과 학습 방법
+- [Statistics](notes/statistics/index.md) — 검증과 해석의 기반
+- [Domain / Bioinformatics](domain/bioinformatics/index.md) — MetaScale 입력 데이터와 도메인 제약
 
-→ [ML Engineering 노트](notes/ml-engineering/index.md)
-
-## 도메인 기반
-
-- [생물정보](notes/bioinformatics/index.md) — metagenomics · microbiome
-- [통계](notes/statistics/index.md) — 회귀 · 다변량 · 생물통계
-- [AI](notes/ai/index.md) — 머신러닝 · 딥러닝 · LLM
-- [파이프라인](notes/pipeline/index.md) — Nextflow · 재현성
-
-## 더 보기
+## More
 
 - [소개](about.md)
 - [블로그](blog/index.md)

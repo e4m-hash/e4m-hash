@@ -7,7 +7,7 @@
 
 - [**머신러닝**](machine-learning/index.md) — 지도/비지도 학습, RandomForest, 평가지표
 - [**딥러닝**](deep-learning/index.md) — 신경망, BERT/DNABERT-2, LLM 통합(Ollama, HuggingFace)
-- [**논문 리뷰**](../papers/index.md) — 읽은 논문 정리
+- [**Bioinformatics 논문 리뷰**](../../domain/bioinformatics/papers/index.md) — domain-specific ML 논문
 
 모델을 데이터 검증·서빙·모니터링과 연결하는 내용은
 [ML Engineering](../ml-engineering/index.md)에서 정리합니다.

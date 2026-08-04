@@ -1,32 +1,30 @@
-# ML Engineering Notes
+# Engineering Notes
 
-기존의 데이터 분석 노트를 ML 시스템 생명주기에 맞춰 다시 연결한 입구입니다.
-바이오인포매틱스와 통계는 별도 관심사가 아니라 데이터와 평가를 이해하기 위한
-도메인 기반으로 둡니다.
+MetaScale을 구현하는 데 직접 필요한 엔지니어링 기록입니다. 생물학 지식과 도구는
+별도 [Domain / Bioinformatics](../domain/bioinformatics/index.md) 탭에서 관리합니다.
 
 ```mermaid
 flowchart LR
-  A[Problem and data] --> B[Validation and pipeline]
+  A[Data contract] --> B[Feature pipeline]
   B --> C[Training and evaluation]
-  C --> D[Model artifact]
+  C --> D[Model bundle]
   D --> E[Serving]
   E --> F[Monitoring]
   F --> A
-  G[Bioinformatics and statistics] -.domain constraints.-> A
-  G -.evaluation.-> C
 ```
 
 ## 중심 경로
 
-- [ML Engineering](ml-engineering/index.md) — 데이터에서 운영까지의 전체 생명주기
+- [ML Engineering](ml-engineering/index.md) — 전체 lifecycle과 구현 기준
 - [AI](ai/index.md) — 모델과 학습 방법
-- [파이프라인](pipeline/index.md) — 재현 가능한 workflow
-- [도구 · 환경](environment/index.md) — 컨테이너, Kubernetes, 작성 환경
+- [파이프라인](pipeline/index.md) — workflow와 재현성
+- [데이터 수집](data-collection/index.md) — scraping, API, 일반 데이터 ingestion
+- [도구 · 환경](environment/index.md) — container, Kubernetes, 개발 환경
 
-## 도메인 기반
+## 기반
 
-- [데이터 수집](data-collection/index.md) — scraping, API, metadata
-- [생물정보](bioinformatics/index.md) — metagenomics, microbiome
-- [통계](statistics/index.md) — 회귀, 다변량, 반복측정
+- [통계](statistics/index.md) — 평가, 회귀, 반복측정
 - [수학](math/index.md) — 선형대수
-- [논문](papers/index.md) — 읽고 검증한 연구 기록
+
+도메인 자료를 Notes에 중복해 두지 않습니다. MetaScale 문서에서는 필요한 도메인
+제약만 설명하고 상세 내용은 Domain 탭으로 연결합니다.
